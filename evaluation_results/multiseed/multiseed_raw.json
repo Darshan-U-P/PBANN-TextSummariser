@@ -1,0 +1,56 @@
+[
+  {
+    "model": "no_position",
+    "seed": 42,
+    "best_epoch": 3,
+    "rouge1": 0.3827775473808745,
+    "rouge2": 0.24669848113367476,
+    "rougeL": 0.31907756447187097,
+    "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\multiseed\\no_position_seed_42_best.pt"
+  },
+  {
+    "model": "position",
+    "seed": 42,
+    "best_epoch": 3,
+    "rouge1": 0.4246296766157743,
+    "rouge2": 0.30820053192524605,
+    "rougeL": 0.3654368976908065,
+    "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\multiseed\\position_seed_42_best.pt"
+  },
+  {
+    "model": "no_position",
+    "seed": 123,
+    "best_epoch": 5,
+    "rouge1": 0.3911639223551984,
+    "rouge2": 0.2570107534119512,
+    "rougeL": 0.326523466679864,
+    "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\multiseed\\no_position_seed_123_best.pt"
+  },
+  {
+    "model": "position",
+    "seed": 123,
+    "best_epoch": 4,
+    "rouge1": 0.4270034257251617,
+    "rouge2": 0.31302749222850534,
+    "rougeL": 0.3693239308360473,
+    "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\multiseed\\position_seed_123_best.pt"
+  },
+  {
+    "model": "no_position",
+    "seed": 2026,
+    "best_epoch": 3,
+    "rouge1": 0.37140092681825626,
+    "rouge2": 0.23268568858820182,
+    "rougeL": 0.3055461930112347,
+    "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\multiseed\\no_position_seed_2026_best.pt"
+  },
+  {
+    "model": "position",
+    "seed": 2026,
+    "best_epoch": 2,
+    "rouge1": 0.4236691121838166,
+    "rouge2": 0.3085322026490145,
+    "rougeL": 0.3658611747546566,
+    "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\multiseed\\position_seed_2026_best.pt"
+  }
+]

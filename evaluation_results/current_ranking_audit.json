@@ -1,0 +1,357 @@
+{
+  "split": "validation",
+  "checkpoint": "models\\rouge_selection_experiment\\pbann_best_rouge.pt",
+  "articles": 500,
+  "sentences": 15041,
+  "overall": {
+    "positive_label_fraction": 0.09518153847288628,
+    "top1_hit_rate": 0.262,
+    "top3_hit_rate": 0.488,
+    "mean_reciprocal_rank": 0.4267666996158282,
+    "mean_first_positive_rank_when_present": 6.238476953907815
+  },
+  "by_article_length": {
+    "long_31_plus": {
+      "articles": 222,
+      "mean_sentence_count": 45.346846846846844,
+      "positive_label_fraction": 0.05171001474546497,
+      "top1_hit_rate": 0.17117117117117117,
+      "top3_hit_rate": 0.35135135135135137,
+      "mean_reciprocal_rank": 0.31794905907057286,
+      "mean_first_positive_rank_when_present": 9.076923076923077
+    },
+    "medium_11_30": {
+      "articles": 234,
+      "mean_sentence_count": 19.71794871794872,
+      "positive_label_fraction": 0.11224746952013598,
+      "top1_hit_rate": 0.3162393162393162,
+      "top3_hit_rate": 0.5897435897435898,
+      "mean_reciprocal_rank": 0.4982034661333304,
+      "mean_first_positive_rank_when_present": 4.196581196581197
+    },
+    "short_1_10": {
+      "articles": 44,
+      "mean_sentence_count": 8.181818181818182,
+      "positive_label_fraction": 0.22375541125541126,
+      "top1_hit_rate": 0.4318181818181818,
+      "top3_hit_rate": 0.6363636363636364,
+      "mean_reciprocal_rank": 0.5958874458874459,
+      "mean_first_positive_rank_when_present": 2.840909090909091
+    }
+  },
+  "examples_top1_label_zero": [
+    {
+      "source_line": 390,
+      "sentence_count": 30,
+      "top1_hit": 0,
+      "top1": {
+        "index": 0,
+        "score": 0.9766649007797241,
+        "label": 0,
+        "sentence": "(CNN)The 1-0 scoreline that took Barcelona through to the Champions League quarterfinals made their clash with Manchester City all seem rather academic."
+      },
+      "top3": [
+        {
+          "index": 0,
+          "score": 0.9766649007797241,
+          "label": 0,
+          "sentence": "(CNN)The 1-0 scoreline that took Barcelona through to the Champions League quarterfinals made their clash with Manchester City all seem rather academic."
+        },
+        {
+          "index": 24,
+          "score": 0.9333643913269043,
+          "label": 0,
+          "sentence": "The latter made it through after beating Borussia Dortmund 3-0 in Germany to secure a convincing 5-1 aggregate victory."
+        },
+        {
+          "index": 4,
+          "score": 0.82675701379776,
+          "label": 0,
+          "sentence": "In truth, the English champions deserved little over the two legs as Barcelona built upon their 2-1 victory in Manchester three weeks ago to go through as 3-1 aggregate winners."
+        }
+      ]
+    },
+    {
+      "source_line": 492,
+      "sentence_count": 34,
+      "top1_hit": 0,
+      "top1": {
+        "index": 0,
+        "score": 0.9692913889884949,
+        "label": 0,
+        "sentence": "(CNN)\"Wait up 2015 CNN Fit Nation Team and Dr. Sanjay Gupta-- you want me to climb up Stone Mountain -- that is over 1,500 feet straight up."
+      },
+      "top3": [
+        {
+          "index": 0,
+          "score": 0.9692913889884949,
+          "label": 0,
+          "sentence": "(CNN)\"Wait up 2015 CNN Fit Nation Team and Dr. Sanjay Gupta-- you want me to climb up Stone Mountain -- that is over 1,500 feet straight up."
+        },
+        {
+          "index": 1,
+          "score": 0.6326096653938293,
+          "label": 0,
+          "sentence": "Are you nuts?\""
+        },
+        {
+          "index": 30,
+          "score": 0.6237115859985352,
+          "label": 0,
+          "sentence": "Just like that Sunday afternoon in January, I could not wait to be on the mountaintop and see the view from Stone Mountain with the members of 2015 CNN Fit Nation."
+        }
+      ]
+    },
+    {
+      "source_line": 381,
+      "sentence_count": 13,
+      "top1_hit": 0,
+      "top1": {
+        "index": 0,
+        "score": 0.9644331932067871,
+        "label": 0,
+        "sentence": "Hong Kong (CNN)The search is on for China's teen top guns."
+      },
+      "top3": [
+        {
+          "index": 0,
+          "score": 0.9644331932067871,
+          "label": 0,
+          "sentence": "Hong Kong (CNN)The search is on for China's teen top guns."
+        },
+        {
+          "index": 1,
+          "score": 0.7852678894996643,
+          "label": 0,
+          "sentence": "China said Monday it has selected 16 high schools to offer pilot training as the country's armed forces seek to attract better qualified recruits."
+        },
+        {
+          "index": 2,
+          "score": 0.778327465057373,
+          "label": 1,
+          "sentence": "The schools, in 11 provinces across the country, will recruit 1,000 male junior high school students aged between 14 to 16, the China Daily reported."
+        }
+      ]
+    },
+    {
+      "source_line": 130,
+      "sentence_count": 29,
+      "top1_hit": 0,
+      "top1": {
+        "index": 0,
+        "score": 0.9641715884208679,
+        "label": 0,
+        "sentence": "(CNN)President Barack Obama shared jokes about pot and Hillary Clinton's email controversy at the annual Gridiron Club dinner in Washington on Saturday."
+      },
+      "top3": [
+        {
+          "index": 0,
+          "score": 0.9641715884208679,
+          "label": 0,
+          "sentence": "(CNN)President Barack Obama shared jokes about pot and Hillary Clinton's email controversy at the annual Gridiron Club dinner in Washington on Saturday."
+        },
+        {
+          "index": 27,
+          "score": 0.8279330134391785,
+          "label": 0,
+          "sentence": "Every president since 1885 except for Grover Cleveland has attended the 130-year-old organization's dinner."
+        },
+        {
+          "index": 1,
+          "score": 0.7235721945762634,
+          "label": 0,
+          "sentence": "The club's dinner brings together Washington's media elite, with noteworthy politicians typically attending, as well."
+        }
+      ]
+    },
+    {
+      "source_line": 426,
+      "sentence_count": 9,
+      "top1_hit": 0,
+      "top1": {
+        "index": 0,
+        "score": 0.9624121785163879,
+        "label": 0,
+        "sentence": "(CNN)Former Australian Prime Minister Malcolm Fraser has died."
+      },
+      "top3": [
+        {
+          "index": 0,
+          "score": 0.9624121785163879,
+          "label": 0,
+          "sentence": "(CNN)Former Australian Prime Minister Malcolm Fraser has died."
+        },
+        {
+          "index": 3,
+          "score": 0.911862313747406,
+          "label": 0,
+          "sentence": "The office of current Prime Minister Tony Abbott confirmed Fraser's death to CNN."
+        },
+        {
+          "index": 6,
+          "score": 0.7324456572532654,
+          "label": 0,
+          "sentence": "Fraser will be remembered for his significant influence in changing relations of countries within the British Commonwealth, according to the National Archives of Australia."
+        }
+      ]
+    }
+  ],
+  "examples_top1_label_one": [
+    {
+      "source_line": 197,
+      "sentence_count": 32,
+      "top1_hit": 1,
+      "top1": {
+        "index": 0,
+        "score": 0.9705963730812073,
+        "label": 1,
+        "sentence": "London (CNN)A supporter of suspended \"Top Gear\" host Jeremy Clarkson delivered a petition with nearly 1 million signatures calling for his reinstatement to the BBC's headquarters in London on Friday -- driving an armored tank up to the building."
+      },
+      "top3": [
+        {
+          "index": 0,
+          "score": 0.9705963730812073,
+          "label": 1,
+          "sentence": "London (CNN)A supporter of suspended \"Top Gear\" host Jeremy Clarkson delivered a petition with nearly 1 million signatures calling for his reinstatement to the BBC's headquarters in London on Friday -- driving an armored tank up to the building."
+        },
+        {
+          "index": 19,
+          "score": 0.8381600975990295,
+          "label": 0,
+          "sentence": "The controversial star has at least one influential ally -- UK Prime Minister David Cameron."
+        },
+        {
+          "index": 6,
+          "score": 0.75260990858078,
+          "label": 0,
+          "sentence": "The findings of the internal investigation are due to be presented to the corporation's director general next week, the BBC said Thursday."
+        }
+      ]
+    },
+    {
+      "source_line": 112,
+      "sentence_count": 26,
+      "top1_hit": 1,
+      "top1": {
+        "index": 0,
+        "score": 0.9699158072471619,
+        "label": 1,
+        "sentence": "London (CNN)Top Gear presenter Jeremy Clarkson was suspended for allegedly hitting a producer, the BBC reported on Wednesday."
+      },
+      "top3": [
+        {
+          "index": 0,
+          "score": 0.9699158072471619,
+          "label": 1,
+          "sentence": "London (CNN)Top Gear presenter Jeremy Clarkson was suspended for allegedly hitting a producer, the BBC reported on Wednesday."
+        },
+        {
+          "index": 4,
+          "score": 0.8350369334220886,
+          "label": 1,
+          "sentence": "Top Gear will not be broadcast this Sunday.\""
+        },
+        {
+          "index": 22,
+          "score": 0.7718002796173096,
+          "label": 0,
+          "sentence": "Top Gear was named as the world's most widely watched factual program in the Guinness World Record 2013 Edition book, with an estimated 350 million global viewers."
+        }
+      ]
+    },
+    {
+      "source_line": 65,
+      "sentence_count": 26,
+      "top1_hit": 1,
+      "top1": {
+        "index": 0,
+        "score": 0.9621628522872925,
+        "label": 1,
+        "sentence": "(CNN)The State Department only last month started automatically preserving dozens of high-level officials' emails, according to a department spokeswoman, a revelation that comes amid the controversy surrounding former Secretary of State Hillary Clinton's own email use."
+      },
+      "top3": [
+        {
+          "index": 0,
+          "score": 0.9621628522872925,
+          "label": 1,
+          "sentence": "(CNN)The State Department only last month started automatically preserving dozens of high-level officials' emails, according to a department spokeswoman, a revelation that comes amid the controversy surrounding former Secretary of State Hillary Clinton's own email use."
+        },
+        {
+          "index": 12,
+          "score": 0.8157840371131897,
+          "label": 0,
+          "sentence": "That request prompted Clinton to turn over 30,490 emails -- about 55,000 pages."
+        },
+        {
+          "index": 13,
+          "score": 0.7803369164466858,
+          "label": 0,
+          "sentence": "Clinton has asked for those emails to be made public, and department officials are reviewing them to make sure no sensitive information is released."
+        }
+      ]
+    },
+    {
+      "source_line": 239,
+      "sentence_count": 21,
+      "top1_hit": 1,
+      "top1": {
+        "index": 0,
+        "score": 0.9602072834968567,
+        "label": 1,
+        "sentence": "(CNN)Michael Douglas' son Dylan had a run-in with anti-Semitism -- and the actor wants to do something about it."
+      },
+      "top3": [
+        {
+          "index": 0,
+          "score": 0.9602072834968567,
+          "label": 1,
+          "sentence": "(CNN)Michael Douglas' son Dylan had a run-in with anti-Semitism -- and the actor wants to do something about it."
+        },
+        {
+          "index": 2,
+          "score": 0.7994537353515625,
+          "label": 0,
+          "sentence": "The older of his two children with actress Catherine Zeta-Jones, 14-year-old Dylan, came to his father in tears."
+        },
+        {
+          "index": 20,
+          "score": 0.6315833330154419,
+          "label": 0,
+          "sentence": "Douglas received the 2015 Genesis Prize for \"exceptional people whose values and achievements will inspire the next generation of Jews.\""
+        }
+      ]
+    },
+    {
+      "source_line": 67,
+      "sentence_count": 12,
+      "top1_hit": 1,
+      "top1": {
+        "index": 0,
+        "score": 0.9595706462860107,
+        "label": 1,
+        "sentence": "(CNN)Former Manchester United star Danny Welbeck returned to haunt his old side to send holders Arsenal into the semifinals of the FA Cup with a 2-1 victory at Old Trafford Monday."
+      },
+      "top3": [
+        {
+          "index": 0,
+          "score": 0.9595706462860107,
+          "label": 1,
+          "sentence": "(CNN)Former Manchester United star Danny Welbeck returned to haunt his old side to send holders Arsenal into the semifinals of the FA Cup with a 2-1 victory at Old Trafford Monday."
+        },
+        {
+          "index": 11,
+          "score": 0.8558663725852966,
+          "label": 0,
+          "sentence": "His counterpart van Gaal will now, barring a miracle, be left without a trophy in his first season in charge of the English powerhouses, with the pressure now on to seal a top four place in the EPL to guarantee Champions League football next season."
+        },
+        {
+          "index": 2,
+          "score": 0.8436002135276794,
+          "label": 0,
+          "sentence": "A disappointing night for United was compounded by a late red card for Argentina international Angel Di Maria, who was given his marching orders after manhandling referee Michael Oliver."
+        }
+      ]
+    }
+  ],
+  "interpretation_note": "Labels are heuristic extractive targets, not human annotations. A label-zero sentence may still be useful in a summary."
+}

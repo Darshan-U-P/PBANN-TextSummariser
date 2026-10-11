@@ -1,0 +1,100 @@
+{
+  "article_path": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\data\\real_article.txt",
+  "device": "cuda",
+  "checkpoint_seed": 42,
+  "sentences_extracted": 62,
+  "input_sentence_count": 60,
+  "input_word_count": 1044,
+  "summary_sentence_count": 3,
+  "summary_word_count": 64,
+  "compression_percent": 93.87,
+  "selected_sentence_indices_1_based": [
+    1,
+    2,
+    9
+  ],
+  "selected_sentences": [
+    "Artificial Intelligence (AI): Transforming the Modern World Introduction Artificial Intelligence (AI) is one of the most significant technological advancements of the modern era.",
+    "It refers to the ability of machines and computer systems to perform tasks that typically require human intelligence, such as learning, reasoning, problem-solving, decision-making, and understanding language.",
+    "AI works through a combination of algorithms, data processing, machine learning, and neural networks."
+  ],
+  "summary": "Artificial Intelligence (AI): Transforming the Modern World Introduction Artificial Intelligence (AI) is one of the most significant technological advancements of the modern era. It refers to the ability of machines and computer systems to perform tasks that typically require human intelligence, such as learning, reasoning, problem-solving, decision-making, and understanding language. AI works through a combination of algorithms, data processing, machine learning, and neural networks.",
+  "top_ranked_sentences": [
+    {
+      "rank": 1,
+      "source_sentence_index_1_based": 9,
+      "score": -1.2270056009292603,
+      "selected": true,
+      "sentence": "AI works through a combination of algorithms, data processing, machine learning, and neural networks."
+    },
+    {
+      "rank": 2,
+      "source_sentence_index_1_based": 1,
+      "score": -1.3343199491500854,
+      "selected": true,
+      "sentence": "Artificial Intelligence (AI): Transforming the Modern World Introduction Artificial Intelligence (AI) is one of the most significant technological advancements of the modern era."
+    },
+    {
+      "rank": 3,
+      "source_sentence_index_1_based": 2,
+      "score": -1.5161080360412598,
+      "selected": true,
+      "sentence": "It refers to the ability of machines and computer systems to perform tasks that typically require human intelligence, such as learning, reasoning, problem-solving, decision-making, and understanding language."
+    },
+    {
+      "rank": 4,
+      "source_sentence_index_1_based": 7,
+      "score": -1.7516844272613525,
+      "selected": false,
+      "sentence": "Artificial Intelligence is a branch of computer science focused on developing systems capable of simulating human intelligence."
+    },
+    {
+      "rank": 5,
+      "source_sentence_index_1_based": 6,
+      "score": -1.8550673723220825,
+      "selected": false,
+      "sentence": "Businesses, governments, educational institutions, and healthcare organizations are investing heavily in AI technologies to improve efficiency, enhance decision-making, and create innovative solutions to complex problems."
+    },
+    {
+      "rank": 6,
+      "source_sentence_index_1_based": 5,
+      "score": -1.8556890487670898,
+      "selected": false,
+      "sentence": "As the world becomes increasingly digital, the importance of AI continues to grow."
+    },
+    {
+      "rank": 7,
+      "source_sentence_index_1_based": 12,
+      "score": -1.9480316638946533,
+      "selected": false,
+      "sentence": "Similarly, when a smartphone unlocks using facial recognition, AI is employed to identify and verify the user's face."
+    },
+    {
+      "rank": 8,
+      "source_sentence_index_1_based": 17,
+      "score": -2.0661988258361816,
+      "selected": false,
+      "sentence": "Examples include: Voice assistants such as Siri and Alexa Recommendation systems on Netflix and YouTube Chatbots and customer service assistants Facial recognition systems 2."
+    },
+    {
+      "rank": 9,
+      "source_sentence_index_1_based": 25,
+      "score": -2.1034975051879883,
+      "selected": false,
+      "sentence": "Education The education sector is using AI to create personalized learning experiences."
+    },
+    {
+      "rank": 10,
+      "source_sentence_index_1_based": 10,
+      "score": -2.161756992340088,
+      "selected": false,
+      "sentence": "Machine learning, one of the most prominent subsets of AI, enables computers to improve their performance by learning from large datasets rather than relying solely on explicitly programmed instructions."
+    }
+  ],
+  "lead3_baseline": "Artificial Intelligence (AI): Transforming the Modern World Introduction Artificial Intelligence (AI) is one of the most significant technological advancements of the modern era. It refers to the ability of machines and computer systems to perform tasks that typically require human intelligence, such as learning, reasoning, problem-solving, decision-making, and understanding language. AI has rapidly evolved from a theoretical concept into a practical technology that influences nearly every aspect of our daily lives.",
+  "structural_checks": {
+    "selected_sentences_copied_from_source": true,
+    "summary_shorter_than_input": true
+  },
+  "note": "Scores are raw model logits, not probabilities. Only the first 60 sentences are evaluated. Lead-3 uses the same cleaned input."
+}

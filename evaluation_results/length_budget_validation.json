@@ -1,0 +1,70 @@
+{
+  "split": "validation",
+  "checkpoint": "models\\rouge_selection_experiment\\pbann_best_rouge.pt",
+  "examples": 500,
+  "word_budgets": [
+    30,
+    35,
+    40,
+    45,
+    50
+  ],
+  "results": {
+    "pbann_top3": {
+      "rouge_f1": {
+        "rouge1": 0.2708536601175857,
+        "rouge2": 0.0925569376625017,
+        "rougeL": 0.183037873048343
+      },
+      "average_summary_words": 71.494
+    },
+    "lead3": {
+      "rouge_f1": {
+        "rouge1": 0.29107989470121104,
+        "rouge2": 0.1111587582823361,
+        "rougeL": 0.19493211982009565
+      },
+      "average_summary_words": 67.516
+    },
+    "budget_30": {
+      "rouge_f1": {
+        "rouge1": 0.26454989260296763,
+        "rouge2": 0.08517357185021672,
+        "rougeL": 0.18604144766075834
+      },
+      "average_summary_words": 30.786
+    },
+    "budget_35": {
+      "rouge_f1": {
+        "rouge1": 0.267396361429057,
+        "rouge2": 0.08642848087582554,
+        "rougeL": 0.1860920314902013
+      },
+      "average_summary_words": 34.582
+    },
+    "budget_40": {
+      "rouge_f1": {
+        "rouge1": 0.2753229107943738,
+        "rouge2": 0.08995149950493324,
+        "rougeL": 0.18995236524500592
+      },
+      "average_summary_words": 38.8
+    },
+    "budget_45": {
+      "rouge_f1": {
+        "rouge1": 0.27627965965682694,
+        "rouge2": 0.08942646768232178,
+        "rougeL": 0.18784041938412352
+      },
+      "average_summary_words": 43.694
+    },
+    "budget_50": {
+      "rouge_f1": {
+        "rouge1": 0.279245660801872,
+        "rouge2": 0.09276357557518437,
+        "rougeL": 0.1921077745806784
+      },
+      "average_summary_words": 48.342
+    }
+  }
+}

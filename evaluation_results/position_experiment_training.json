@@ -1,0 +1,44 @@
+{
+  "experiment": "position_aware_pbann",
+  "selection_metric": "validation_rougeL_f1",
+  "best_epoch": 2,
+  "best_validation_rougeL_f1": 0.19545836513919976,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.123705713889982,
+      "validation_loss": 1.2240531163467354,
+      "validation_rouge1_f1": 0.29099850213050554,
+      "validation_rouge2_f1": 0.10983866171457905,
+      "validation_rougeL_f1": 0.19420278463009938,
+      "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\position_experiment\\checkpoints\\epoch_01.pt"
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.0808643627136707,
+      "validation_loss": 1.1890319408305852,
+      "validation_rouge1_f1": 0.29224347194112116,
+      "validation_rouge2_f1": 0.1113853013297617,
+      "validation_rougeL_f1": 0.19545836513919976,
+      "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\position_experiment\\checkpoints\\epoch_02.pt"
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.054555513100231,
+      "validation_loss": 1.2069096164725244,
+      "validation_rouge1_f1": 0.28894866898313126,
+      "validation_rouge2_f1": 0.10929136241407118,
+      "validation_rougeL_f1": 0.1938903633095828,
+      "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\position_experiment\\checkpoints\\epoch_03.pt"
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.0235015579025823,
+      "validation_loss": 1.2817714194312755,
+      "validation_rouge1_f1": 0.28870981149882724,
+      "validation_rouge2_f1": 0.10913218404228912,
+      "validation_rougeL_f1": 0.1943374857019694,
+      "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\position_experiment\\checkpoints\\epoch_04.pt"
+    }
+  ]
+}

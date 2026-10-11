@@ -1,0 +1,467 @@
+{
+  "split": "validation",
+  "checkpoint": "models\\rouge_selection_experiment\\pbann_best_rouge.pt",
+  "articles": 500,
+  "position_band_definition": {
+    "beginning": "first 20% of sentence indices",
+    "middle": "20% to less than 80%",
+    "end": "final 20%"
+  },
+  "overall_by_position": {
+    "beginning": {
+      "sentence_count": 3188,
+      "positive_label_fraction": 0.15589711417816812,
+      "mean_score_all": 0.5064665129590787,
+      "mean_score_positive_labels": 0.6270126990035365,
+      "mean_score_negative_labels": 0.4842028732474119,
+      "positive_minus_negative_mean_score": 0.1428098257561246,
+      "top3_selection_rate": 0.20169385194479297
+    },
+    "middle": {
+      "sentence_count": 9030,
+      "positive_label_fraction": 0.04961240310077519,
+      "mean_score_all": 0.4300631083734456,
+      "mean_score_positive_labels": 0.48785726639887017,
+      "mean_score_negative_labels": 0.42704612133133535,
+      "positive_minus_negative_mean_score": 0.06081114506753482,
+      "top3_selection_rate": 0.07519379844961241
+    },
+    "end": {
+      "sentence_count": 2823,
+      "positive_label_fraction": 0.03825717321997875,
+      "mean_score_all": 0.39244877930070443,
+      "mean_score_positive_labels": 0.5108566384555565,
+      "mean_score_negative_labels": 0.38773863241719647,
+      "positive_minus_negative_mean_score": 0.12311800603836004,
+      "top3_selection_rate": 0.06305348919589089
+    }
+  },
+  "by_article_length_and_position": {
+    "short_1_10": {
+      "beginning": {
+        "sentence_count": 85,
+        "positive_label_fraction": 0.35294117647058826,
+        "mean_score_all": 0.6461080165689482,
+        "mean_score_positive_labels": 0.6665722060327729,
+        "mean_score_negative_labels": 0.6349457314068621,
+        "positive_minus_negative_mean_score": 0.03162647462591084,
+        "top3_selection_rate": 0.6705882352941176
+      },
+      "middle": {
+        "sentence_count": 221,
+        "positive_label_fraction": 0.18552036199095023,
+        "mean_score_all": 0.5019216630286516,
+        "mean_score_positive_labels": 0.5433518315960721,
+        "mean_score_negative_labels": 0.4924847912994058,
+        "positive_minus_negative_mean_score": 0.05086704029666633,
+        "top3_selection_rate": 0.3076923076923077
+      },
+      "end": {
+        "sentence_count": 54,
+        "positive_label_fraction": 0.1111111111111111,
+        "mean_score_all": 0.34677286382928424,
+        "mean_score_positive_labels": 0.5245252139866352,
+        "mean_score_negative_labels": 0.32455382005961536,
+        "positive_minus_negative_mean_score": 0.19997139392701985,
+        "top3_selection_rate": 0.12962962962962962
+      }
+    },
+    "medium_11_30": {
+      "beginning": {
+        "sentence_count": 1017,
+        "positive_label_fraction": 0.2359882005899705,
+        "mean_score_all": 0.5638230498935666,
+        "mean_score_positive_labels": 0.654923079017317,
+        "mean_score_negative_labels": 0.5356840447588174,
+        "positive_minus_negative_mean_score": 0.11923903425849958,
+        "top3_selection_rate": 0.3077679449360865
+      },
+      "middle": {
+        "sentence_count": 2768,
+        "positive_label_fraction": 0.06828034682080925,
+        "mean_score_all": 0.4667581901931307,
+        "mean_score_positive_labels": 0.5255983491063552,
+        "mean_score_negative_labels": 0.462446135119614,
+        "positive_minus_negative_mean_score": 0.06315221398674115,
+        "top3_selection_rate": 0.10982658959537572
+      },
+      "end": {
+        "sentence_count": 829,
+        "positive_label_fraction": 0.06031363088057901,
+        "mean_score_all": 0.4191995224824447,
+        "mean_score_positive_labels": 0.5620451480150223,
+        "mean_score_negative_labels": 0.4100309970952446,
+        "positive_minus_negative_mean_score": 0.15201415091977766,
+        "top3_selection_rate": 0.10253317249698432
+      }
+    },
+    "long_31_plus": {
+      "beginning": {
+        "sentence_count": 2086,
+        "positive_label_fraction": 0.10882070949185044,
+        "mean_score_all": 0.47281304897575516,
+        "mean_score_positive_labels": 0.5922757985005217,
+        "mean_score_negative_labels": 0.45822561264325273,
+        "positive_minus_negative_mean_score": 0.13405018585726897,
+        "top3_selection_rate": 0.13087248322147652
+      },
+      "middle": {
+        "sentence_count": 6041,
+        "positive_label_fraction": 0.03608674060585996,
+        "mean_score_all": 0.4106205116087231,
+        "mean_score_positive_labels": 0.4446997351841916,
+        "mean_score_negative_labels": 0.40934466226311905,
+        "positive_minus_negative_mean_score": 0.03535507292107254,
+        "top3_selection_rate": 0.05081940076146333
+      },
+      "end": {
+        "sentence_count": 1940,
+        "positive_label_fraction": 0.026804123711340205,
+        "mean_score_all": 0.3822890542170931,
+        "mean_score_positive_labels": 0.46005977439479184,
+        "mean_score_negative_labels": 0.38014706404270726,
+        "positive_minus_negative_mean_score": 0.07991271035208458,
+        "top3_selection_rate": 0.0443298969072165
+      }
+    }
+  },
+  "examples": [
+    {
+      "source_line": 1,
+      "sentence_count": 43,
+      "length_group": "long_31_plus",
+      "top3": [
+        {
+          "index": 11,
+          "band": "middle",
+          "score": 0.7795032858848572,
+          "label": 0,
+          "sentence": "It works on a simple swapping principle but takes it to a much higher level, according to California Pacific Medical Center in San Francisco."
+        },
+        {
+          "index": 17,
+          "band": "middle",
+          "score": 0.7693080902099609,
+          "label": 0,
+          "sentence": "Here's how the super swap works, according to California Pacific Medical Center."
+        },
+        {
+          "index": 15,
+          "band": "middle",
+          "score": 0.7179805636405945,
+          "label": 0,
+          "sentence": "The chain of surgeries is to be wrapped up Friday."
+        }
+      ]
+    },
+    {
+      "source_line": 2,
+      "sentence_count": 60,
+      "length_group": "long_31_plus",
+      "top3": [
+        {
+          "index": 1,
+          "band": "beginning",
+          "score": 0.8756259083747864,
+          "label": 0,
+          "sentence": "The historic occasion was the first ever Major League Soccer match -- a brave new dawn for the world's favorite sport in a land its charms had yet to conquer."
+        },
+        {
+          "index": 52,
+          "band": "end",
+          "score": 0.863487720489502,
+          "label": 0,
+          "sentence": "He excelled at Kansas, winning the MLS Cup before being sold to the Portuguese giants at a profit in June 2014."
+        },
+        {
+          "index": 36,
+          "band": "middle",
+          "score": 0.8540064096450806,
+          "label": 0,
+          "sentence": "Homegrown players from club's development academies are also exempt as are a maximum of three designated players (DPs), usually stellar international names whose wages and transfer fees will be covered by club owners or sponsors."
+        }
+      ]
+    },
+    {
+      "source_line": 3,
+      "sentence_count": 25,
+      "length_group": "medium_11_30",
+      "top3": [
+        {
+          "index": 0,
+          "band": "beginning",
+          "score": 0.9283140897750854,
+          "label": 0,
+          "sentence": "(CNN)French striker Bafetimbi Gomis, who has a history of fainting, said he is now \"feeling well\" after collapsing during Swansea's 3-2 loss at Tottenham in the Premier League on Wednesday."
+        },
+        {
+          "index": 20,
+          "band": "end",
+          "score": 0.8620171546936035,
+          "label": 0,
+          "sentence": "He became the Welsh side's top striker when Wilfried Bony signed with Manchester City in January."
+        },
+        {
+          "index": 21,
+          "band": "end",
+          "score": 0.7993077039718628,
+          "label": 0,
+          "sentence": "Almost exactly three years ago at White Hart Lane, then Bolton midfielder Fabrice Muamba collapsed after suffering a cardiac arrest."
+        }
+      ]
+    },
+    {
+      "source_line": 4,
+      "sentence_count": 15,
+      "length_group": "medium_11_30",
+      "top3": [
+        {
+          "index": 0,
+          "band": "beginning",
+          "score": 0.9386186003684998,
+          "label": 0,
+          "sentence": "(CNN)It was an act of frustration perhaps more commonly associated with golf's fictional anti-hero Happy Gilmore than the world's reigning No 1. player."
+        },
+        {
+          "index": 14,
+          "band": "end",
+          "score": 0.8446012139320374,
+          "label": 0,
+          "sentence": "Former world No 1., Adam Scott carded an impressive 68 to finish the day three shots off the pace at six-under while Bubba Watson and Henrik Stenson are tied for fourth on four-under."
+        },
+        {
+          "index": 7,
+          "band": "middle",
+          "score": 0.8288145065307617,
+          "label": 0,
+          "sentence": "McIlroy composed himself to finish with a second round of 70, leaving him one-under for the tournament and eight shots off the pace set by leader JB Holmes."
+        }
+      ]
+    },
+    {
+      "source_line": 5,
+      "sentence_count": 23,
+      "length_group": "medium_11_30",
+      "top3": [
+        {
+          "index": 0,
+          "band": "beginning",
+          "score": 0.9139828085899353,
+          "label": 1,
+          "sentence": "(CNN)A Pennsylvania community is pulling together to search for an eighth-grade student who has been missing since Wednesday."
+        },
+        {
+          "index": 4,
+          "band": "beginning",
+          "score": 0.8595303297042847,
+          "label": 0,
+          "sentence": "He could be in the Radnor-Wayne area, roughly 20 miles from Philadelphia, or may have purchased a train ticket to Philadelphia, according to an alert posted on Facebook."
+        },
+        {
+          "index": 22,
+          "band": "end",
+          "score": 0.6493417024612427,
+          "label": 0,
+          "sentence": "CNN could not immediately get in touch with police or the FBI."
+        }
+      ]
+    },
+    {
+      "source_line": 6,
+      "sentence_count": 49,
+      "length_group": "long_31_plus",
+      "top3": [
+        {
+          "index": 2,
+          "band": "beginning",
+          "score": 0.7525239586830139,
+          "label": 0,
+          "sentence": "The drama started, innocently enough, on February 25, when Schilling played the role of a proud father."
+        },
+        {
+          "index": 21,
+          "band": "middle",
+          "score": 0.7161857485771179,
+          "label": 0,
+          "sentence": "One was a student disc jockey at a community college in New Jersey, who was suspended, and the other was a part-time ticket seller for the New York Yankees, who was fired."
+        },
+        {
+          "index": 6,
+          "band": "beginning",
+          "score": 0.6085244417190552,
+          "label": 0,
+          "sentence": "The tweets quickly went from immature, to creepy, to repugnant."
+        }
+      ]
+    },
+    {
+      "source_line": 7,
+      "sentence_count": 26,
+      "length_group": "medium_11_30",
+      "top3": [
+        {
+          "index": 8,
+          "band": "middle",
+          "score": 0.8558340668678284,
+          "label": 0,
+          "sentence": "Last November, authorities in Rome slapped a 20,000-euro ($21,685) penalty on a Russian tourist caught carving his name into the famed landmark."
+        },
+        {
+          "index": 10,
+          "band": "middle",
+          "score": 0.8526433706283569,
+          "label": 0,
+          "sentence": "After police caught up with him, the man was found guilty of causing aggravated damage, fined and given a four-month suspended sentence."
+        },
+        {
+          "index": 13,
+          "band": "middle",
+          "score": 0.7954353094100952,
+          "label": 0,
+          "sentence": "Rome isn't alone in having to deal with inappropriate tourist behavior this month."
+        }
+      ]
+    },
+    {
+      "source_line": 8,
+      "sentence_count": 10,
+      "length_group": "short_1_10",
+      "top3": [
+        {
+          "index": 5,
+          "band": "middle",
+          "score": 0.781380832195282,
+          "label": 0,
+          "sentence": "When the Hit & Run worked its way through the U.K. in 2014, concert venues were revealed via Twitter prior to each show."
+        },
+        {
+          "index": 0,
+          "band": "beginning",
+          "score": 0.7350659370422363,
+          "label": 0,
+          "sentence": "(CNN)Following last year's successful U.K. tour, Prince and 3rdEyeGirl are bringing the Hit & Run Tour to the U.S. for the first time."
+        },
+        {
+          "index": 6,
+          "band": "middle",
+          "score": 0.6737633943557739,
+          "label": 0,
+          "sentence": "Portions of the ticket sales will be donated to various Louisville charities."
+        }
+      ]
+    },
+    {
+      "source_line": 9,
+      "sentence_count": 23,
+      "length_group": "medium_11_30",
+      "top3": [
+        {
+          "index": 0,
+          "band": "beginning",
+          "score": 0.8553568124771118,
+          "label": 0,
+          "sentence": "(CNN)A shooting at a bar popular with expatriates in Mali on Saturday killed five people, including French and Belgian citizens, authorities said."
+        },
+        {
+          "index": 11,
+          "band": "middle",
+          "score": 0.7706483006477356,
+          "label": 0,
+          "sentence": "U.S. Secretary of State John Kerry expressed his condolences to the victims' families in a news conference in Paris on Saturday."
+        },
+        {
+          "index": 7,
+          "band": "middle",
+          "score": 0.7090475559234619,
+          "label": 0,
+          "sentence": "\"Al-Murabitun may be considered a regional competitor to al-Qaeda in the Islamic Maghreb (AQIM),\" according to the Jamestown Foundation, a Washington-based research and analysis firm."
+        }
+      ]
+    },
+    {
+      "source_line": 10,
+      "sentence_count": 24,
+      "length_group": "medium_11_30",
+      "top3": [
+        {
+          "index": 0,
+          "band": "beginning",
+          "score": 0.9360366463661194,
+          "label": 0,
+          "sentence": "(CNN)Manchester United defender Jonny Evans and Newcastle United striker Papiss Cisse have been charged by the Football Association for allegedly spitting during an altercation in Wednesday night's Premier League game at St James' Park."
+        },
+        {
+          "index": 3,
+          "band": "beginning",
+          "score": 0.7739002108573914,
+          "label": 1,
+          "sentence": "The players have until 6pm GMT on Friday to respond to the charge, and could face six-game bans if found guilty."
+        },
+        {
+          "index": 8,
+          "band": "middle",
+          "score": 0.6885172724723816,
+          "label": 0,
+          "sentence": "Spitting at another player is considered beyond the pale by professional footballers, and former Liverpool midfielder Dietmar Hamann, now a TV pundit, told the BBC's Match of the Day programme the incident had been \"disgusting.\""
+        }
+      ]
+    },
+    {
+      "source_line": 11,
+      "sentence_count": 15,
+      "length_group": "medium_11_30",
+      "top3": [
+        {
+          "index": 5,
+          "band": "middle",
+          "score": 0.9535201787948608,
+          "label": 0,
+          "sentence": "On this page you will find today's show Transcript and a place for you to request to be on the CNN Student News Roll Call."
+        },
+        {
+          "index": 13,
+          "band": "end",
+          "score": 0.9043501019477844,
+          "label": 1,
+          "sentence": "You must be a teacher or a student age 13 or older to request a mention on the CNN Student News Roll Call!"
+        },
+        {
+          "index": 7,
+          "band": "middle",
+          "score": 0.8806020617485046,
+          "label": 0,
+          "sentence": "Click here to access the transcript of today's CNN Student News program."
+        }
+      ]
+    },
+    {
+      "source_line": 12,
+      "sentence_count": 18,
+      "length_group": "medium_11_30",
+      "top3": [
+        {
+          "index": 0,
+          "band": "beginning",
+          "score": 0.8845470547676086,
+          "label": 1,
+          "sentence": "(CNN)Nine foreign workers are believed to be in the hands of ISIS-affiliated militants after an attack on a Libyan oil field, according to officials."
+        },
+        {
+          "index": 11,
+          "band": "middle",
+          "score": 0.6628997325897217,
+          "label": 0,
+          "sentence": "The Libyan National Oil Corporation said over the weekend that it had warned VAOS more than two weeks ago to leave the area because of security concerns."
+        },
+        {
+          "index": 2,
+          "band": "beginning",
+          "score": 0.6138246059417725,
+          "label": 0,
+          "sentence": "The kidnapped foreigners were working for VAOS, an Austrian-owned oil services company whose headquarters are in Tripoli, the Libyan capital."
+        }
+      ]
+    }
+  ],
+  "interpretation_note": "Labels are heuristic targets, not human annotations. Score differences are descriptive and do not prove causation."
+}

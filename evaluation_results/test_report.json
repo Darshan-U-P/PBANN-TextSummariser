@@ -1,0 +1,34 @@
+{
+  "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\pbann_phase2_best.pt",
+  "device": "cuda",
+  "test_examples": 500,
+  "selected_threshold": 0.75,
+  "primary_metric": "rougeL",
+  "pbann_test": {
+    "rouge1_precision": 0.2739159611321963,
+    "rouge1_recall": 0.23226371043997407,
+    "rouge1_fmeasure": 0.2373455640325457,
+    "rouge2_precision": 0.08215769794408603,
+    "rouge2_recall": 0.06699085857875171,
+    "rouge2_fmeasure": 0.069596160661693,
+    "rougeL_precision": 0.19854017788826284,
+    "rougeL_recall": 0.16448354320902597,
+    "rougeL_fmeasure": 0.16994978512513353
+  },
+  "lead3_test": {
+    "rouge1_precision": 0.2330041878169082,
+    "rouge1_recall": 0.47650108732725627,
+    "rouge1_fmeasure": 0.3026901102852891,
+    "rouge2_precision": 0.09037633884232844,
+    "rouge2_recall": 0.1928110668039641,
+    "rouge2_fmeasure": 0.1193716160788183,
+    "rougeL_precision": 0.1588735028097983,
+    "rougeL_recall": 0.32709979470519496,
+    "rougeL_fmeasure": 0.20684800917414148
+  },
+  "rouge_f1_difference_pbann_minus_lead3": {
+    "rouge1": -0.06534454625274339,
+    "rouge2": -0.0497754554171253,
+    "rougeL": -0.036898224049007944
+  }
+}

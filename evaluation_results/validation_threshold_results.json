@@ -1,0 +1,112 @@
+{
+  "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\pbann_phase2_best.pt",
+  "primary_metric": "rougeL",
+  "thresholds": [
+    {
+      "threshold": 0.4,
+      "primary_rouge_f1": 0.17170701583562034,
+      "metrics": {
+        "rouge1_precision": 0.18672438584068018,
+        "rouge1_recall": 0.45592130503150996,
+        "rouge1_fmeasure": 0.2577920735382255,
+        "rouge2_precision": 0.06085572881861955,
+        "rouge2_recall": 0.1527731938244292,
+        "rouge2_fmeasure": 0.08469777568342476,
+        "rougeL_precision": 0.1237385203208102,
+        "rougeL_recall": 0.307091804932821,
+        "rougeL_fmeasure": 0.17170701583562034
+      }
+    },
+    {
+      "threshold": 0.5,
+      "primary_rouge_f1": 0.1721682319524295,
+      "metrics": {
+        "rouge1_precision": 0.1878112073546549,
+        "rouge1_recall": 0.45424043325488167,
+        "rouge1_fmeasure": 0.258421629512982,
+        "rouge2_precision": 0.06118119788584445,
+        "rouge2_recall": 0.1517898594134632,
+        "rouge2_fmeasure": 0.08482666941306481,
+        "rougeL_precision": 0.12459445001290219,
+        "rougeL_recall": 0.3055304006228133,
+        "rougeL_fmeasure": 0.1721682319524295
+      }
+    },
+    {
+      "threshold": 0.55,
+      "primary_rouge_f1": 0.1717369054838024,
+      "metrics": {
+        "rouge1_precision": 0.18886709742804758,
+        "rouge1_recall": 0.44969025931252854,
+        "rouge1_fmeasure": 0.2579358927401397,
+        "rouge2_precision": 0.06121713363141074,
+        "rouge2_recall": 0.14889103552995042,
+        "rouge2_fmeasure": 0.08406818483682751,
+        "rougeL_precision": 0.12529036886566175,
+        "rougeL_recall": 0.30218168269604656,
+        "rougeL_fmeasure": 0.1717369054838024
+      }
+    },
+    {
+      "threshold": 0.6,
+      "primary_rouge_f1": 0.1713036681265261,
+      "metrics": {
+        "rouge1_precision": 0.1943781342968979,
+        "rouge1_recall": 0.4285884990604851,
+        "rouge1_fmeasure": 0.2562492022802772,
+        "rouge2_precision": 0.06152702344561791,
+        "rouge2_recall": 0.1405774648951947,
+        "rouge2_fmeasure": 0.08239467617972562,
+        "rougeL_precision": 0.12973649783643426,
+        "rougeL_recall": 0.2887418674720677,
+        "rougeL_fmeasure": 0.1713036681265261
+      }
+    },
+    {
+      "threshold": 0.65,
+      "primary_rouge_f1": 0.17129895202261805,
+      "metrics": {
+        "rouge1_precision": 0.21092419410230162,
+        "rouge1_recall": 0.38200694426197024,
+        "rouge1_fmeasure": 0.25211148331329936,
+        "rouge2_precision": 0.06595257438211385,
+        "rouge2_recall": 0.12207595104775873,
+        "rouge2_fmeasure": 0.07992408609691071,
+        "rougeL_precision": 0.14432316827232533,
+        "rougeL_recall": 0.25888834402437894,
+        "rougeL_fmeasure": 0.17129895202261805
+      }
+    },
+    {
+      "threshold": 0.7,
+      "primary_rouge_f1": 0.17219754444471252,
+      "metrics": {
+        "rouge1_precision": 0.2434630366819113,
+        "rouge1_recall": 0.29705173806274193,
+        "rouge1_fmeasure": 0.24632245550920884,
+        "rouge2_precision": 0.0727556872093492,
+        "rouge2_recall": 0.09145912117322658,
+        "rouge2_fmeasure": 0.07495768335015125,
+        "rougeL_precision": 0.17203253845458094,
+        "rougeL_recall": 0.20550721023464794,
+        "rougeL_fmeasure": 0.17219754444471252
+      }
+    },
+    {
+      "threshold": 0.75,
+      "primary_rouge_f1": 0.17317980197013305,
+      "metrics": {
+        "rouge1_precision": 0.2641255481375763,
+        "rouge1_recall": 0.24886750246047648,
+        "rouge1_fmeasure": 0.24203803719100062,
+        "rouge2_precision": 0.07890528005449068,
+        "rouge2_recall": 0.0762994045630354,
+        "rouge2_fmeasure": 0.073588464571768,
+        "rougeL_precision": 0.1902381364666318,
+        "rougeL_recall": 0.17702736555827261,
+        "rougeL_fmeasure": 0.17317980197013305
+      }
+    }
+  ],
+  "selected_threshold": 0.75
+}

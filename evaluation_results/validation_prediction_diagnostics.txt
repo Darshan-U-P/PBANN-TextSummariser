@@ -1,0 +1,113 @@
+PB-ANN VALIDATION PREDICTION DIAGNOSTICS
+=======================================================
+Checkpoint: models\rouge_selection_experiment\pbann_best_rouge.pt
+Examples: 500
+Selection: Top-3 by model score, original order restored
+
+SELECTED SENTENCE COUNT
+{3: 500}
+
+Average prediction words: 71.49
+Average reference words: 33.99
+Average selected relative position: 0.392
+
+MEAN ROUGE F1
+PB-ANN: {'rouge1': 0.2708536601175857, 'rouge2': 0.0925569376625017, 'rougeL': 0.183037873048343}
+Lead-3: {'rouge1': 0.29107989470121104, 'rouge2': 0.1111587582823361, 'rougeL': 0.19493211982009565}
+Difference: {'rouge1': -0.020226234583625324, 'rouge2': -0.018601820619834397, 'rougeL': -0.011894246771752631}
+
+LOW ROUGE-L EXAMPLES
+-------------------------------------------------------
+
+REFERENCE:
+"It looks like there's been a little war zone around here" National Weather Service: There are preliminary reports of 7 tornadoes . "It looks like there's been a little war zone around here," Oklahoma resident says .
+
+PB-ANN:
+(CNN)Cleanup crews on Thursday started assessing the damage caused by storms that slashed across Oklahoma on Wednesday, killing one person and injuring about two dozen others across the state. Authorities said the man who died at the River Oaks Mobile Home Park had been trying to help his father, who was injured, according to CNN affiliate KJRH. The Moore Police Department said a 2-mile square area had significant damage, mainly roofs off homes and downed trees.
+
+Selected sentence indices (0-based): [0, 2, 21]
+ROUGE F1: {'rouge1': 0.05217391304347826, 'rouge2': 0.0, 'rougeL': 0.034782608695652174}
+
+REFERENCE:
+Rory McIlroy throws club into water at WGC Cadillac Championship . Northern Irishman frustrated after pulling shot into water hazard .
+
+PB-ANN:
+(CNN)It was an act of frustration perhaps more commonly associated with golf's fictional anti-hero Happy Gilmore than the world's reigning No 1. player. McIlroy composed himself to finish with a second round of 70, leaving him one-under for the tournament and eight shots off the pace set by leader JB Holmes. Former world No 1., Adam Scott carded an impressive 68 to finish the day three shots off the pace at six-under while Bubba Watson and Henrik Stenson are tied for fourth on four-under.
+
+Selected sentence indices (0-based): [0, 7, 14]
+ROUGE F1: {'rouge1': 0.07272727272727272, 'rouge2': 0.0, 'rougeL': 0.03636363636363636}
+
+REFERENCE:
+Feld Entertainment plans to retire elephants from its circuses . Pamela Burns: We congratulate the company for its decision to relocate elephants .
+
+PB-ANN:
+(CNN)After enduring about four days at sea under stressful conditions, Tyke, an African elephant, escaped during a circus performance, crushing her trainer to death and injuring dozens of others while storming through the streets of Honolulu. Following this sort of brutal training, the animals may appear tame, but they are still wild and their original wild instincts will appear if provoked. These very social animals, simply put, should not be living in solitary confinement.
+
+Selected sentence indices (0-based): [0, 8, 18]
+ROUGE F1: {'rouge1': 0.0625, 'rouge2': 0.0, 'rougeL': 0.041666666666666664}
+
+REFERENCE:
+Officials had posted warning Friday that cliff was dangerous . Two people fell about 70 feet when Arch Rock at Point Reyes National Seashore collapsed .
+
+PB-ANN:
+(CNN)One person died and another was severely injured after a cliff collapsed on the Pacific Coast north of San Francisco, the National Park Service said. On Monday, the Marin County Sheriff's Office named the deceased as 58-year-old Nancy Blum, from California. Bluffs along the California coast are known for being unstable, according to the park service.
+
+Selected sentence indices (0-based): [0, 10, 15]
+ROUGE F1: {'rouge1': 0.09523809523809522, 'rouge2': 0.0, 'rougeL': 0.04761904761904761}
+
+REFERENCE:
+Goldstone: U.S. policy of drone-bombing al Qaeda terrorists ignores need to build social stability . He says country now in chaos, virtually ungoverned and vulnerable to jihadist elements .
+
+PB-ANN:
+(CNN)It shouldn't come as a surprise that Yemen has collapsed -- again. As the United States has closed its embassy and withdrawn its last troops, Yemen has slid into total chaos, with rebels and jihadists on both sides capturing military bases and seizing tanks and heavy weapons. The situation is so dire that a coalition of Sunni nations, led by Saudi Arabia, has launched massive airstrikes against the Houthis, with a Saudi adviser threatening to bring up to 150,000 ground troops into Yemen to restore the Hadi regime.
+
+Selected sentence indices (0-based): [0, 8, 9]
+ROUGE F1: {'rouge1': 0.10084033613445377, 'rouge2': 0.0, 'rougeL': 0.050420168067226885}
+
+HIGH ROUGE-L EXAMPLES
+-------------------------------------------------------
+
+REFERENCE:
+This page includes the show Transcript . Use the Transcript to help students with reading comprehension and vocabulary . At the bottom of the page, comment for a chance to be mentioned on CNN Student News. You must be a teacher or a student age 13 or older to request a mention on the CNN Student News Roll Call.
+
+PB-ANN:
+On this page you will find today's show Transcript and a place for you to request to be on the CNN Student News Roll Call. Click here to access the transcript of today's CNN Student News program. You must be a teacher or a student age 13 or older to request a mention on the CNN Student News Roll Call!
+
+Selected sentence indices (0-based): [5, 7, 13]
+ROUGE F1: {'rouge1': 0.7058823529411764, 'rouge2': 0.4786324786324786, 'rougeL': 0.5882352941176471}
+
+REFERENCE:
+This page includes the show Transcript . Use the Transcript to help students with reading comprehension and vocabulary . At the bottom of the page, comment for a chance to be mentioned on CNN Student News. You must be a teacher or a student age 13 or older to request a mention on the CNN Student News Roll Call.
+
+PB-ANN:
+On this page you will find today's show Transcript and a place for you to request to be on the CNN Student News Roll Call. Click here to access the transcript of today's CNN Student News program. You must be a teacher or a student age 13 or older to request a mention on the CNN Student News Roll Call!
+
+Selected sentence indices (0-based): [3, 5, 11]
+ROUGE F1: {'rouge1': 0.7058823529411764, 'rouge2': 0.4786324786324786, 'rougeL': 0.5882352941176471}
+
+REFERENCE:
+This page includes the show Transcript . Use the Transcript to help students with reading comprehension and vocabulary . At the bottom of the page, comment for a chance to be mentioned on CNN Student News. You must be a teacher or a student age 13 or older to request a mention on the CNN Student News Roll Call.
+
+PB-ANN:
+On this page you will find today's show Transcript and a place for you to request to be on the CNN Student News Roll Call. Click here to access the transcript of today's CNN Student News program. You must be a teacher or a student age 13 or older to request a mention on the CNN Student News Roll Call!
+
+Selected sentence indices (0-based): [2, 4, 10]
+ROUGE F1: {'rouge1': 0.7058823529411764, 'rouge2': 0.4786324786324786, 'rougeL': 0.5882352941176471}
+
+REFERENCE:
+This page includes the show Transcript . Use the Transcript to help students with reading comprehension and vocabulary . At the bottom of the page, comment for a chance to be mentioned on CNN Student News. You must be a teacher or a student age 13 or older to request a mention on the CNN Student News Roll Call.
+
+PB-ANN:
+On this page you will find today's show Transcript and a place for you to request to be on the CNN Student News Roll Call. Click here to access the transcript of today's CNN Student News program. You must be a teacher or a student age 13 or older to request a mention on the CNN Student News Roll Call!
+
+Selected sentence indices (0-based): [4, 6, 12]
+ROUGE F1: {'rouge1': 0.7058823529411764, 'rouge2': 0.4786324786324786, 'rougeL': 0.5882352941176471}
+
+REFERENCE:
+This page includes the show Transcript . Use the Transcript to help students with reading comprehension and vocabulary . At the bottom of the page, comment for a chance to be mentioned on CNN Student News. You must be a teacher or a student age 13 or older to request a mention on the CNN Student News Roll Call.
+
+PB-ANN:
+On this page you will find today's show Transcript and a place for you to request to be on the CNN Student News Roll Call. Click here to access the transcript of today's CNN Student News program. You must be a teacher or a student age 13 or older to request a mention on the CNN Student News Roll Call!
+
+Selected sentence indices (0-based): [5, 7, 13]
+ROUGE F1: {'rouge1': 0.7058823529411764, 'rouge2': 0.4786324786324786, 'rougeL': 0.5882352941176471}

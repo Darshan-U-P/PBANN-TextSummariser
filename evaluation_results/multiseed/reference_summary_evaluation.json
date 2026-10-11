@@ -1,0 +1,124 @@
+{
+  "evaluation": {
+    "reference": "original summary field from validation JSONL",
+    "selection": "top 3 sentences",
+    "validation_articles": 500,
+    "test_set_used": false
+  },
+  "runs": [
+    {
+      "model": "no_position",
+      "seed": 42,
+      "checkpoint_epoch": 3,
+      "articles_evaluated": 500,
+      "rouge1": 0.2693380372776385,
+      "rouge2": 0.09113328634224976,
+      "rougeL": 0.18119480089667456
+    },
+    {
+      "model": "position",
+      "seed": 42,
+      "checkpoint_epoch": 3,
+      "articles_evaluated": 500,
+      "rouge1": 0.29175857826251755,
+      "rouge2": 0.11096124600266079,
+      "rougeL": 0.19794869390126213
+    },
+    {
+      "model": "no_position",
+      "seed": 123,
+      "checkpoint_epoch": 5,
+      "articles_evaluated": 500,
+      "rouge1": 0.2709198145346651,
+      "rouge2": 0.09412876754452215,
+      "rougeL": 0.18380717258082388
+    },
+    {
+      "model": "position",
+      "seed": 123,
+      "checkpoint_epoch": 4,
+      "articles_evaluated": 500,
+      "rouge1": 0.2877996983697845,
+      "rouge2": 0.10749776112685384,
+      "rougeL": 0.19369913281592346
+    },
+    {
+      "model": "no_position",
+      "seed": 2026,
+      "checkpoint_epoch": 3,
+      "articles_evaluated": 500,
+      "rouge1": 0.26662495175998024,
+      "rouge2": 0.09107704891788726,
+      "rougeL": 0.18061781132291901
+    },
+    {
+      "model": "position",
+      "seed": 2026,
+      "checkpoint_epoch": 2,
+      "articles_evaluated": 500,
+      "rouge1": 0.28645085100800044,
+      "rouge2": 0.10800569306491241,
+      "rougeL": 0.19495165967057265
+    }
+  ],
+  "summary": {
+    "no_position": {
+      "rouge1": {
+        "mean": 0.2689609345240946,
+        "std": 0.002172122562930384,
+        "per_seed": [
+          0.2693380372776385,
+          0.2709198145346651,
+          0.26662495175998024
+        ]
+      },
+      "rouge2": {
+        "mean": 0.09211303426821972,
+        "std": 0.001745902672794053,
+        "per_seed": [
+          0.09113328634224976,
+          0.09412876754452215,
+          0.09107704891788726
+        ]
+      },
+      "rougeL": {
+        "mean": 0.18187326160013914,
+        "std": 0.0016994816865636944,
+        "per_seed": [
+          0.18119480089667456,
+          0.18380717258082388,
+          0.18061781132291901
+        ]
+      }
+    },
+    "position": {
+      "rouge1": {
+        "mean": 0.2886697092134341,
+        "std": 0.0027587463281601244,
+        "per_seed": [
+          0.29175857826251755,
+          0.2877996983697845,
+          0.28645085100800044
+        ]
+      },
+      "rouge2": {
+        "mean": 0.10882156673147568,
+        "std": 0.0018703393411569483,
+        "per_seed": [
+          0.11096124600266079,
+          0.10749776112685384,
+          0.10800569306491241
+        ]
+      },
+      "rougeL": {
+        "mean": 0.19553316212925273,
+        "std": 0.002183644015537888,
+        "per_seed": [
+          0.19794869390126213,
+          0.19369913281592346,
+          0.19495165967057265
+        ]
+      }
+    }
+  }
+}

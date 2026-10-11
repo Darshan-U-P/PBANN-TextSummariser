@@ -1,0 +1,793 @@
+{
+  "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\pbann_phase2_best.pt",
+  "split": "validation",
+  "articles": 500,
+  "sentences": 15041,
+  "threshold_metrics": {
+    "threshold": 0.75,
+    "precision": 0.24193548387096775,
+    "recall": 0.05698005698005698,
+    "f1": 0.09223674096848578,
+    "actual_positive_fraction": 0.07000864304235091,
+    "predicted_positive_fraction": 0.016488265407885113,
+    "total_sentences": 15041
+  },
+  "ranking_metrics": {
+    "top1_hit_rate": 0.216,
+    "top3_hit_rate": 0.452,
+    "mean_reciprocal_rank_first_positive": 0.38793673983281485
+  },
+  "label_statistics": {
+    "positive_sentences": 1053,
+    "negative_sentences": 13988,
+    "positive_fraction": 0.07000864304235091,
+    "mean_positive_labels_per_article": 2.106,
+    "positive_label_count_distribution": {
+      "3": 147,
+      "2": 260,
+      "1": 92,
+      "0": 1
+    }
+  },
+  "article_length_groups": {
+    "long (31+ sentences)": {
+      "articles": 222,
+      "sentences": 10067,
+      "positive_label_fraction": 0.04936922618456342,
+      "predicted_positive_fraction": 0.012416807390483758,
+      "precision": 0.16,
+      "recall": 0.04024144869215292,
+      "f1": 0.06430868167202572,
+      "top1_hit_rate": 0.11261261261261261,
+      "top3_hit_rate": 0.3063063063063063
+    },
+    "medium (11-30 sentences)": {
+      "articles": 234,
+      "sentences": 4614,
+      "positive_label_fraction": 0.10381447767663632,
+      "predicted_positive_fraction": 0.024273948851322065,
+      "precision": 0.32142857142857145,
+      "recall": 0.07515657620041753,
+      "f1": 0.1218274111675127,
+      "top1_hit_rate": 0.2905982905982906,
+      "top3_hit_rate": 0.5427350427350427
+    },
+    "short (1-10 sentences)": {
+      "articles": 44,
+      "sentences": 360,
+      "positive_label_fraction": 0.21388888888888888,
+      "predicted_positive_fraction": 0.030555555555555555,
+      "precision": 0.36363636363636365,
+      "recall": 0.05194805194805195,
+      "f1": 0.09090909090909091,
+      "top1_hit_rate": 0.3409090909090909,
+      "top3_hit_rate": 0.7045454545454546
+    }
+  },
+  "examples": {
+    "top1_predicted_negative_label": [
+      {
+        "article_index": 296,
+        "sentence_count": 20,
+        "top_sentence": "London (CNN)An 18-year-old British man has been arrested on suspicion of preparing to join ISIS in Syria, UK police say.",
+        "top_score": 0.8781210780143738,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "London (CNN)An 18-year-old British man has been arrested on suspicion of preparing to join ISIS in Syria, UK police say.",
+            "score": 0.8781210780143738,
+            "label": 0
+          },
+          {
+            "sentence": "The two 17-year-old boys and a 19-year-old man were arrested \"on suspicion of preparation of terrorist acts,\" the Metropolitan Police said.",
+            "score": 0.8002934455871582,
+            "label": 0
+          },
+          {
+            "sentence": "Last week, Turkish authorities said they had arrested a person -- working for an undisclosed nation's intelligence service -- on suspicion of helping three British girls who are thought to have entered Syria to join ISIS.",
+            "score": 0.7927654981613159,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 223,
+        "sentence_count": 48,
+        "top_sentence": "(CNN)New Zealand are on course for a first ever World Cup title after a thrilling semifinal victory over South Africa, secured off the penultimate ball of the match.",
+        "top_score": 0.8390064239501953,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "(CNN)New Zealand are on course for a first ever World Cup title after a thrilling semifinal victory over South Africa, secured off the penultimate ball of the match.",
+            "score": 0.8390064239501953,
+            "label": 0
+          },
+          {
+            "sentence": "South Africa were motoring with the bat before a two-hour delay for poor weather.",
+            "score": 0.752639651298523,
+            "label": 0
+          },
+          {
+            "sentence": "Though its total was escalated by the Duckworth/Lewis method -- used to calculate a revised target in the event of a rain delay -- New Zealand held firm thanks to Elliott.",
+            "score": 0.7047054767608643,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 20,
+        "sentence_count": 7,
+        "top_sentence": "The victims -- two couples and the 84-year-old woman -- lived within 100 meters (330 feet) of the suspect's home, police said.",
+        "top_score": 0.8356927037239075,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "The victims -- two couples and the 84-year-old woman -- lived within 100 meters (330 feet) of the suspect's home, police said.",
+            "score": 0.8356927037239075,
+            "label": 0
+          },
+          {
+            "sentence": "Tokyo (CNN)Police in Japan say they have arrested a 40-year-old man accused of fatally stabbing five neighbors in a farming community in Sumoto city.",
+            "score": 0.7905943989753723,
+            "label": 1
+          },
+          {
+            "sentence": "The man has admitted stabbing three women aged 59, 76 and 84, as well as two men aged 62 and 82, Deputy Police Chief Keizo Okumoto told CNN.",
+            "score": 0.5842950344085693,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 34,
+        "sentence_count": 19,
+        "top_sentence": "(CNN)A grand jury in Clark County, Nevada, has indicted a 19-year-old man accused of fatally shooting his neighbor in front of her house last month.",
+        "top_score": 0.8316844701766968,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "(CNN)A grand jury in Clark County, Nevada, has indicted a 19-year-old man accused of fatally shooting his neighbor in front of her house last month.",
+            "score": 0.8316844701766968,
+            "label": 0
+          },
+          {
+            "sentence": "Police say Nowsch shot Tammy Meyers, 44, in front of her home after the car he was riding in followed her home February 12.",
+            "score": 0.7420312762260437,
+            "label": 1
+          },
+          {
+            "sentence": "He is due in court Tuesday for a preliminary hearing.",
+            "score": 0.641208827495575,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 407,
+        "sentence_count": 20,
+        "top_sentence": "5 Murray, who beat Isner 7-6 (7-4) 6-3 7-6 (7-4) in two and a half hours to give his team a 3-1 lead and ensure a repeat of the result of last year's first-round clash between the two nations.",
+        "top_score": 0.8270655870437622,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "5 Murray, who beat Isner 7-6 (7-4) 6-3 7-6 (7-4) in two and a half hours to give his team a 3-1 lead and ensure a repeat of the result of last year's first-round clash between the two nations.",
+            "score": 0.8270655870437622,
+            "label": 0
+          },
+          {
+            "sentence": "Mayer eventually triumphed, after his 11th match point, winning 7-6 (7-4) 7-6 (7-5) 5-7 5-7 15-13 in front of a delirious home crowd in Buenos Aires to send the tie to a deciding rubber.",
+            "score": 0.821071445941925,
+            "label": 0
+          },
+          {
+            "sentence": "France, beaten by Switzerland in last year's final, went through after beating Germany 3-2 -- losing both of Sunday's meaningless singles rubbers having already secured victory in the doubles 24 hours earlier.",
+            "score": 0.7508107423782349,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 52,
+        "sentence_count": 31,
+        "top_sentence": "Chelsea were in France to play Paris Saint-Germain in a Champions League first-leg tie - Europe's premier football tournament -- which finished 1-1.",
+        "top_score": 0.8221473097801208,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "Chelsea were in France to play Paris Saint-Germain in a Champions League first-leg tie - Europe's premier football tournament -- which finished 1-1.",
+            "score": 0.8221473097801208,
+            "label": 0
+          },
+          {
+            "sentence": "Later in February, KIO says it contacted the police over social media footage which showed men, thought to be West Ham fans, singing anti-Semitic songs on a train while traveling to Tottenham Hotspur's White Hart Lane ground ahead of an English Premier League game.",
+            "score": 0.7769877314567566,
+            "label": 0
+          },
+          {
+            "sentence": "Terry was banned for four matches and fined £220,000 by the FA for his actions.",
+            "score": 0.7348753213882446,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 50,
+        "sentence_count": 38,
+        "top_sentence": "New Delhi (CNN)Thankfully, no one was wounded after crude bombs were hurled at a Tamil news station in India on Thursday.",
+        "top_score": 0.8206396698951721,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "New Delhi (CNN)Thankfully, no one was wounded after crude bombs were hurled at a Tamil news station in India on Thursday.",
+            "score": 0.8206396698951721,
+            "label": 0
+          },
+          {
+            "sentence": "Hounded by protests over his novel, Perumal Murugan, a Tamil author, announced quitting writing in a dramatic post on Facebook in January.",
+            "score": 0.7073904275894165,
+            "label": 0
+          },
+          {
+            "sentence": "Authorities can seek restraining orders from local courts -- as they did to ban the recent BBC documentary \"India's Daughter\" -- by citing potential disorder.",
+            "score": 0.706008791923523,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 322,
+        "sentence_count": 22,
+        "top_sentence": "The new environment minister's initial response to the video -- in the form of a widely reported text message of gratitude to Chai -- reinforced some doubts over Chai's claim of editorial independence for her self-funded project.",
+        "top_score": 0.8125525712966919,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "The new environment minister's initial response to the video -- in the form of a widely reported text message of gratitude to Chai -- reinforced some doubts over Chai's claim of editorial independence for her self-funded project.",
+            "score": 0.8125525712966919,
+            "label": 0
+          },
+          {
+            "sentence": "\"Under the Dome\" -- a slickly produced two-hour documentary on journalist Chai Jing's dogged quest to find the causes and solutions to China's severe smog problem -- attracted over 200 million views online in just one week, an unprecedented number even in the world's most populous nation.",
+            "score": 0.7745805382728577,
+            "label": 0
+          },
+          {
+            "sentence": "Supporters and detractors of Chai, a famous former anchor and reporter at state-run national broadcaster CCTV, began a war of words almost immediately after the video's release on February 28.",
+            "score": 0.7473593354225159,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 90,
+        "sentence_count": 38,
+        "top_sentence": "The officer -- a 32-year-old with seven years' experience -- was shot at the high point of his cheek, just under his right eye, police said.",
+        "top_score": 0.8114028573036194,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "The officer -- a 32-year-old with seven years' experience -- was shot at the high point of his cheek, just under his right eye, police said.",
+            "score": 0.8114028573036194,
+            "label": 0
+          },
+          {
+            "sentence": "Five residents Friday filed an affidavit saying they'll try to force a referendum on whether to remove Mayor James Knowles -- capping a tumultuous week in a community grappling not only with last year's fatal shooting of teenager Michael Brown, but also Wednesday's wounding of two police officers shot during a protest.",
+            "score": 0.7713944911956787,
+            "label": 0
+          },
+          {
+            "sentence": "A group supporting the filing, Organization for Black Struggle, a 35-year-old St. Louis-based activist group, said the five would try to collect enough signatures -- 15% of the city's registered voters -- in the next 60 days.",
+            "score": 0.7358629107475281,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 200,
+        "sentence_count": 23,
+        "top_sentence": "(CNN)Manchester United and skipper Wayne Rooney significantly boosted its own chances and delivered a probable knockout blow to Tottenham Hotspur's hopes of Champions League qualification with 3-0 home win Sunday.",
+        "top_score": 0.8111792802810669,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "(CNN)Manchester United and skipper Wayne Rooney significantly boosted its own chances and delivered a probable knockout blow to Tottenham Hotspur's hopes of Champions League qualification with 3-0 home win Sunday.",
+            "score": 0.8111792802810669,
+            "label": 0
+          },
+          {
+            "sentence": "From United first significant attack on nine minutes, an unmarked Fellaini was found by Carrick and the Belgian international beat Hugo Lloris with a low shot.",
+            "score": 0.7641525268554688,
+            "label": 0
+          },
+          {
+            "sentence": "First half goals from Marouane Fellaini, Michael Carrick and Rooney effectively ended the EPL match as a contest, with the win leaving United in fourth spot, but only two points adrift of second-placed Manchester City.",
+            "score": 0.7547920346260071,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 6,
+        "sentence_count": 26,
+        "top_sentence": "After police caught up with him, the man was found guilty of causing aggravated damage, fined and given a four-month suspended sentence.",
+        "top_score": 0.8109794855117798,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "After police caught up with him, the man was found guilty of causing aggravated damage, fined and given a four-month suspended sentence.",
+            "score": 0.8109794855117798,
+            "label": 0
+          },
+          {
+            "sentence": "Last November, authorities in Rome slapped a 20,000-euro ($21,685) penalty on a Russian tourist caught carving his name into the famed landmark.",
+            "score": 0.7705678343772888,
+            "label": 0
+          },
+          {
+            "sentence": "They received six-month suspended prison sentences, a one-million riel ($250) fine and were banned from entering the country for four years.",
+            "score": 0.6971977949142456,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 208,
+        "sentence_count": 20,
+        "top_sentence": "(CNN)For the first time in history over half the world's population live in cities -- more than 54% of us did in 2014.",
+        "top_score": 0.8108934164047241,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "(CNN)For the first time in history over half the world's population live in cities -- more than 54% of us did in 2014.",
+            "score": 0.8108934164047241,
+            "label": 0
+          },
+          {
+            "sentence": "Dar es Salaam, Lusaka, Nairobi, Lagos and Accra made up the top five, suggesting a new generation of African powerhouse economies is waiting in the wings.",
+            "score": 0.6649446487426758,
+            "label": 0
+          },
+          {
+            "sentence": "However, sub-Saharan cities registered among the highest in terms of society and demographics, excelling in diversity and population growth, both useful when looking towards future investment.",
+            "score": 0.616377055644989,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 84,
+        "sentence_count": 30,
+        "top_sentence": "Aberdeenshire, Scotland (CNN)The Scottish Highlands on a wintry morning in January made for an awe-inspiring interview setting.",
+        "top_score": 0.8106778860092163,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "Aberdeenshire, Scotland (CNN)The Scottish Highlands on a wintry morning in January made for an awe-inspiring interview setting.",
+            "score": 0.8106778860092163,
+            "label": 0
+          },
+          {
+            "sentence": "Rarely have cameras been allowed in, and never to this part of the house.",
+            "score": 0.5640403032302856,
+            "label": 0
+          },
+          {
+            "sentence": "We traveled along narrow roads winding among snow-capped mountains, eventually arriving at Birkhall -- the Scottish home to Prince Charles and his wife, Camilla, Duchess of Cornwall.",
+            "score": 0.546197772026062,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 288,
+        "sentence_count": 60,
+        "top_sentence": "Washington (CNN)No deal is better than a bad deal, say critics of President Barack Obama's nuclear talks with Iran.",
+        "top_score": 0.8093118667602539,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "Washington (CNN)No deal is better than a bad deal, say critics of President Barack Obama's nuclear talks with Iran.",
+            "score": 0.8093118667602539,
+            "label": 0
+          },
+          {
+            "sentence": "Secretary of State John Kerry and Iranian Foreign Minister Javad Zarif are haggling over the remaining issues in Lausanne, Switzerland, ahead of an end-of-the-month deadline for a framework agreement, which then must be finalized by July 1.",
+            "score": 0.7313471436500549,
+            "label": 0
+          },
+          {
+            "sentence": "The administration thinks that if the United States gets the blame for using hardball tactics that derail talks -- if, say, Congress imposes more sanctions, as administration critics want -- there is no way its international partners would keep existing sanctions in place, let alone double down and impose new ones.",
+            "score": 0.7020037770271301,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 364,
+        "sentence_count": 11,
+        "top_sentence": "In December, Mario Balotelli was banned for one match and fined £25,000 after being found guilty of breaching English Football Association rules by posting a controversial image of Super Mario on Instagram.",
+        "top_score": 0.8089047074317932,
+        "top_label": 0,
+        "top3": [
+          {
+            "sentence": "In December, Mario Balotelli was banned for one match and fined £25,000 after being found guilty of breaching English Football Association rules by posting a controversial image of Super Mario on Instagram.",
+            "score": 0.8089047074317932,
+            "label": 0
+          },
+          {
+            "sentence": "He missed their 1-0 away win over Swansea City on Monday due to illness.",
+            "score": 0.7808977365493774,
+            "label": 0
+          },
+          {
+            "sentence": "Perhaps a bit fed up, he posted a video on his Instagram page giving the world a piece of his mind.",
+            "score": 0.7734119296073914,
+            "label": 0
+          }
+        ]
+      }
+    ],
+    "top1_predicted_positive_label": [
+      {
+        "article_index": 92,
+        "sentence_count": 34,
+        "top_sentence": "(CNN)Lindsey Vonn may have missed out on gold at last month's world championships, but the American skier has set her sights on end-of-season glory after claiming a record-extending 65th World Cup win on Sunday.",
+        "top_score": 0.8639905452728271,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "(CNN)Lindsey Vonn may have missed out on gold at last month's world championships, but the American skier has set her sights on end-of-season glory after claiming a record-extending 65th World Cup win on Sunday.",
+            "score": 0.8639905452728271,
+            "label": 1
+          },
+          {
+            "sentence": "But Vonn is well off the pace in the fight for the overall crown -- which she last won in 2012, her fourth success -- in third place almost 200 points behind the Austrian.",
+            "score": 0.7687307000160217,
+            "label": 0
+          },
+          {
+            "sentence": "It put Vonn eight points ahead of super-G world champion Anna Fenninger, who placed third to give back the 20 points she'd earned over Maze the day before -- when their positions were reversed.",
+            "score": 0.7678273916244507,
+            "label": 1
+          }
+        ]
+      },
+      {
+        "article_index": 184,
+        "sentence_count": 11,
+        "top_sentence": "The 46-year-old pop star will be performing a 90-minute show of her hits at the \"world's richest day of horse racing\" -- the 20th Dubai World Cup hosted at Meydan on Saturday, March 28.",
+        "top_score": 0.8515770435333252,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "The 46-year-old pop star will be performing a 90-minute show of her hits at the \"world's richest day of horse racing\" -- the 20th Dubai World Cup hosted at Meydan on Saturday, March 28.",
+            "score": 0.8515770435333252,
+            "label": 1
+          },
+          {
+            "sentence": "Prize money totaling $30 million will be up for grabs over a variety of races, culminating in a top prize of $10m in the Dubai World Cup race -- a rendition of Minogue's \"I should be so lucky\" would certainly be apt.",
+            "score": 0.7396756410598755,
+            "label": 0
+          },
+          {
+            "sentence": "(CNN)She's a multi-award winning singer, a fashion icon, a designer, entrepreneur, actress and philanthropist.",
+            "score": 0.7158147096633911,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 17,
+        "sentence_count": 22,
+        "top_sentence": "For $89, self-styled entrepreneur Kyle Waring will ship you 6 pounds of Boston-area snow in an insulated Styrofoam box -- enough for 10 to 15 snowballs, he says.",
+        "top_score": 0.8428295850753784,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "For $89, self-styled entrepreneur Kyle Waring will ship you 6 pounds of Boston-area snow in an insulated Styrofoam box -- enough for 10 to 15 snowballs, he says.",
+            "score": 0.8428295850753784,
+            "label": 1
+          },
+          {
+            "sentence": "He also has begun selling a 10-pound box of snow for $119.",
+            "score": 0.7603651285171509,
+            "label": 0
+          },
+          {
+            "sentence": "His website and social media accounts claim to have filled more than 133 orders for snow -- more than 30 on Tuesday alone, his busiest day yet.",
+            "score": 0.755283534526825,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 19,
+        "sentence_count": 27,
+        "top_sentence": "(CNN)Real Madrid fell to a lacklustre 1-0 defeat at the hands of Athletic Bilbao Saturday, potentially handing the La Liga advantage to arch rival Barcelona.",
+        "top_score": 0.8365687727928162,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "(CNN)Real Madrid fell to a lacklustre 1-0 defeat at the hands of Athletic Bilbao Saturday, potentially handing the La Liga advantage to arch rival Barcelona.",
+            "score": 0.8365687727928162,
+            "label": 1
+          },
+          {
+            "sentence": "Paris Saint Germain returned to the top of the Ligue 1 table, for 24 hours at least, with a convincing 4-1 win over Lens at the Parc de Princes.",
+            "score": 0.7531784176826477,
+            "label": 0
+          },
+          {
+            "sentence": "Bayern Munich continued its seemingly inexorable march to a third consecutive Bundesliga title with a come from behind 3-1 victory away to Hannover.",
+            "score": 0.7394859790802002,
+            "label": 1
+          }
+        ]
+      },
+      {
+        "article_index": 61,
+        "sentence_count": 26,
+        "top_sentence": "(CNN)Police raided millionaire heir Robert Durst's home in Houston, Texas, on Tuesday, a day after he was charged with first-degree murder.",
+        "top_score": 0.8261580467224121,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "(CNN)Police raided millionaire heir Robert Durst's home in Houston, Texas, on Tuesday, a day after he was charged with first-degree murder.",
+            "score": 0.8261580467224121,
+            "label": 1
+          },
+          {
+            "sentence": "The Los Angeles County District Attorney filed a first-degree murder charge against him on Monday, accusing Durst of shooting and killing his close friend Susan Berman in December 2000.",
+            "score": 0.7219288945198059,
+            "label": 0
+          },
+          {
+            "sentence": "Durst has long maintained he had nothing to do with Berman's death or his wife's disappearance, though some have questioned whether comments he made at the end of the documentary -- muttering under his breath in the bathroom that he \"killed them all\" -- could be interpreted as a confession.",
+            "score": 0.6511078476905823,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 347,
+        "sentence_count": 43,
+        "top_sentence": "London (CNN)CNN International presented the CNN Journalist Award for excellent international coverage to up-and-coming journalists from Germany, Austria and German-speaking parts of Switzerland at an exclusive dinner at the London Century Club last week.",
+        "top_score": 0.8254624605178833,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "London (CNN)CNN International presented the CNN Journalist Award for excellent international coverage to up-and-coming journalists from Germany, Austria and German-speaking parts of Switzerland at an exclusive dinner at the London Century Club last week.",
+            "score": 0.8254624605178833,
+            "label": 1
+          },
+          {
+            "sentence": "Political life becomes private, and personal life becomes political -- for all Syrians but also for those who feel connected with Syria.",
+            "score": 0.7266911864280701,
+            "label": 0
+          },
+          {
+            "sentence": "The CNN Journalist Award is presented by CNN International to young foreign journalists.",
+            "score": 0.6803446412086487,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 253,
+        "sentence_count": 26,
+        "top_sentence": "(CNN)Before he was Jihadi John, he was little John -- a young version of the same Mohammed Emwazi who authorities say later became the English-speaking face of ISIS terror.",
+        "top_score": 0.8188343048095703,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "(CNN)Before he was Jihadi John, he was little John -- a young version of the same Mohammed Emwazi who authorities say later became the English-speaking face of ISIS terror.",
+            "score": 0.8188343048095703,
+            "label": 1
+          },
+          {
+            "sentence": "They say that the Kuwaiti-born Mohammed Emwazi went from being a typical \"boy next door\" type growing up in West London to being one of the most high-profile recruits of ISIS, the Islamist extremist group behind a campaign of terror and conquest in Syria and Iraq.",
+            "score": 0.674852728843689,
+            "label": 0
+          },
+          {
+            "sentence": "More than a dozen British administrative court documents obtained by CNN indicate that, as far back as 2009, British security services believed Emwazi was part of a radical West London recruitment network for terrorist groups in East Africa.",
+            "score": 0.6393828988075256,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 235,
+        "sentence_count": 14,
+        "top_sentence": "Spieth won a three-way play-off with a 28-foot birdie on the third extra hole to become only the fourth player since 1940 to win twice on the PGA Tour before turning 22.",
+        "top_score": 0.8165258765220642,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "Spieth won a three-way play-off with a 28-foot birdie on the third extra hole to become only the fourth player since 1940 to win twice on the PGA Tour before turning 22.",
+            "score": 0.8165258765220642,
+            "label": 1
+          },
+          {
+            "sentence": "Spieth has long been heralded as the next big thing in golf -- shining in the amateur ranks with two U.S. junior titles and leading last year's Masters after the third round before eventually finishing tied for second, three shots behind Bubba Watson.",
+            "score": 0.7380478978157043,
+            "label": 0
+          },
+          {
+            "sentence": "(CNN)Jordan Spieth has Rory McIlroy and the world No.1 spot firmly in his sights after winning the Valspar Championship on Sunday.",
+            "score": 0.6932035684585571,
+            "label": 1
+          }
+        ]
+      },
+      {
+        "article_index": 130,
+        "sentence_count": 17,
+        "top_sentence": "(CNN)Chinese relic experts claim that a 1,000-year-old mummified monk encased in a Buddha statue was stolen from a village temple in Eastern China in 1995, state media reported.",
+        "top_score": 0.8143243789672852,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "(CNN)Chinese relic experts claim that a 1,000-year-old mummified monk encased in a Buddha statue was stolen from a village temple in Eastern China in 1995, state media reported.",
+            "score": 0.8143243789672852,
+            "label": 1
+          },
+          {
+            "sentence": "The bureau will continue the investigation and report to national cultural authorities to seek repatriation in compliance with normal procedures, a spokesperson told the state-run Xinhua news agency on Sunday.",
+            "score": 0.7314454913139343,
+            "label": 0
+          },
+          {
+            "sentence": "The mummy was found sitting on a bundle of cloth covered in Chinese inscriptions, revealing its identity as a Buddhist monk called Liuquan who may have practiced \"self-mummification\" to prepare for life after death.",
+            "score": 0.693260908126831,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 4,
+        "sentence_count": 23,
+        "top_sentence": "(CNN)A Pennsylvania community is pulling together to search for an eighth-grade student who has been missing since Wednesday.",
+        "top_score": 0.8119087815284729,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "(CNN)A Pennsylvania community is pulling together to search for an eighth-grade student who has been missing since Wednesday.",
+            "score": 0.8119087815284729,
+            "label": 1
+          },
+          {
+            "sentence": "The search has drawn hundreds of volunteers on foot and online.",
+            "score": 0.7084398865699768,
+            "label": 0
+          },
+          {
+            "sentence": "He could be in the Radnor-Wayne area, roughly 20 miles from Philadelphia, or may have purchased a train ticket to Philadelphia, according to an alert posted on Facebook.",
+            "score": 0.6959037184715271,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 204,
+        "sentence_count": 13,
+        "top_sentence": "(CNN)Marine biologists at the South Carolina Aquarium are treating a rare, 475-pound leatherback sea turtle that washed up Saturday on a nearby beach.",
+        "top_score": 0.8098751902580261,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "(CNN)Marine biologists at the South Carolina Aquarium are treating a rare, 475-pound leatherback sea turtle that washed up Saturday on a nearby beach.",
+            "score": 0.8098751902580261,
+            "label": 1
+          },
+          {
+            "sentence": "Because the turtle is believed to be a juvenile -- rescuers say it's probably less than 10 years old -- and has not reached sexual maturity, biologists can't yet determine its sex.",
+            "score": 0.7312918901443481,
+            "label": 0
+          },
+          {
+            "sentence": "The episode marks the first rescue of a leatherback sea turtle in South Carolina and is believed to be only the fifth live rescue of this species in the United States, according to the South Carolina Department of Natural Resources.",
+            "score": 0.6578130722045898,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 455,
+        "sentence_count": 14,
+        "top_sentence": "(CNN)A documentary on the life of late singer Amy Winehouse will be released in Britain on July 3, just weeks before the fourth anniversary of her death, the film's production company says.",
+        "top_score": 0.8088048100471497,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "(CNN)A documentary on the life of late singer Amy Winehouse will be released in Britain on July 3, just weeks before the fourth anniversary of her death, the film's production company says.",
+            "score": 0.8088048100471497,
+            "label": 1
+          },
+          {
+            "sentence": "It will feature \"extensive unseen archive footage and previously unheard tracks,\" Deadline reported Wednesday.",
+            "score": 0.6602486371994019,
+            "label": 0
+          },
+          {
+            "sentence": "\"Amy\" follows a poorly received biopic, \"Fallen Star,\" released in 2013.",
+            "score": 0.5572609901428223,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 238,
+        "sentence_count": 21,
+        "top_sentence": "(CNN)Michael Douglas' son Dylan had a run-in with anti-Semitism -- and the actor wants to do something about it.",
+        "top_score": 0.8072397708892822,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "(CNN)Michael Douglas' son Dylan had a run-in with anti-Semitism -- and the actor wants to do something about it.",
+            "score": 0.8072397708892822,
+            "label": 1
+          },
+          {
+            "sentence": "The older of his two children with actress Catherine Zeta-Jones, 14-year-old Dylan, came to his father in tears.",
+            "score": 0.7231109142303467,
+            "label": 0
+          },
+          {
+            "sentence": "Douglas went to talk to the man -- \"it was not a pleasant discussion,\" he writes -- and the incident has stayed in his mind.",
+            "score": 0.6982674598693848,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 65,
+        "sentence_count": 41,
+        "top_sentence": "(CNN)Two more American aid workers who had high-risk exposure to Ebola in Sierra Leone arrived back in the United States on Monday for monitoring.",
+        "top_score": 0.806339681148529,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "(CNN)Two more American aid workers who had high-risk exposure to Ebola in Sierra Leone arrived back in the United States on Monday for monitoring.",
+            "score": 0.806339681148529,
+            "label": 1
+          },
+          {
+            "sentence": "Nina Pham, a nurse at Texas Health Presbyterian Hospital Dallas, was admitted to NIH in October after she contracted the disease while treating Liberian national Thomas Eric Duncan.",
+            "score": 0.7038466930389404,
+            "label": 0
+          },
+          {
+            "sentence": "The next set of aid workers returned back to the United States on Saturday evening and went into isolation in housing on the campus of the University of Nebraska Medical Center, according to spokesman Taylor Wilson.",
+            "score": 0.661218523979187,
+            "label": 0
+          }
+        ]
+      },
+      {
+        "article_index": 382,
+        "sentence_count": 42,
+        "top_sentence": "Fall River, Massachusetts (CNN)Shayanna Jenkins, the fiancee of former New England Patriots star Aaron Hernandez, revealed for the first time Monday she suspects marijuana was in a box she was instructed to remove from the couple's home the day after the slaying of Odin Lloyd in 2013.",
+        "top_score": 0.8034648895263672,
+        "top_label": 1,
+        "top3": [
+          {
+            "sentence": "Fall River, Massachusetts (CNN)Shayanna Jenkins, the fiancee of former New England Patriots star Aaron Hernandez, revealed for the first time Monday she suspects marijuana was in a box she was instructed to remove from the couple's home the day after the slaying of Odin Lloyd in 2013.",
+            "score": 0.8034648895263672,
+            "label": 1
+          },
+          {
+            "sentence": "Hernandez has been charged with murder and has pleaded not guilty to orchestrating the death of Lloyd, the boyfriend of Shayanna Jenkins' sister and semipro football player who was found dead June 17, 2013.",
+            "score": 0.7271727919578552,
+            "label": 0
+          },
+          {
+            "sentence": "This week, the jury is expected to hear from Alexander Bradley, Hernandez's former right hand man, who has accused Hernandez of shooting him in the face in February of 2013.",
+            "score": 0.6807719469070435,
+            "label": 0
+          }
+        ]
+      }
+    ]
+  }
+}

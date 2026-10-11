@@ -1,0 +1,105 @@
+{
+  "selection_metric": "validation_rougeL_f1",
+  "objective": "bce_plus_pairwise_ranking",
+  "ranking_weight": 0.2,
+  "ranking_margin": 0.5,
+  "best_epoch": 4,
+  "best_validation_rougeL_f1": 0.1808236591886799,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train": {
+        "total_loss": 1.4114020771861076,
+        "bce_loss": 1.2483279129624367,
+        "ranking_loss": 0.8153708175480365
+      },
+      "validation": {
+        "total_loss": 1.5017688727378846,
+        "bce_loss": 1.327054220199585,
+        "ranking_loss": 0.873573272228241
+      },
+      "validation_rouge": {
+        "rouge1": 0.25601495848376216,
+        "rouge2": 0.08206821388082376,
+        "rougeL": 0.1690553654739264
+      },
+      "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\ranking_loss_experiment\\checkpoints\\epoch_01.pt"
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "total_loss": 1.356208109819889,
+        "bce_loss": 1.2041333060860633,
+        "ranking_loss": 0.7603740186572074
+      },
+      "validation": {
+        "total_loss": 1.5161948754787444,
+        "bce_loss": 1.3438963634967804,
+        "ranking_loss": 0.8614925438165665
+      },
+      "validation_rouge": {
+        "rouge1": 0.26632772529979,
+        "rouge2": 0.08809812381822264,
+        "rougeL": 0.17552376852067333
+      },
+      "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\ranking_loss_experiment\\checkpoints\\epoch_02.pt"
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "total_loss": 1.3116212837219239,
+        "bce_loss": 1.1687286947309972,
+        "ranking_loss": 0.7144629467308521
+      },
+      "validation": {
+        "total_loss": 1.5248759610652924,
+        "bce_loss": 1.3506065986156464,
+        "ranking_loss": 0.8713468166589737
+      },
+      "validation_rouge": {
+        "rouge1": 0.26427489894214323,
+        "rouge2": 0.09027828824388441,
+        "rougeL": 0.17811721962862895
+      },
+      "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\ranking_loss_experiment\\checkpoints\\epoch_03.pt"
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "total_loss": 1.2550274047017098,
+        "bce_loss": 1.1234562734007836,
+        "ranking_loss": 0.6578556544691324
+      },
+      "validation": {
+        "total_loss": 1.566507577419281,
+        "bce_loss": 1.3894313547611237,
+        "ranking_loss": 0.8853811128139496
+      },
+      "validation_rouge": {
+        "rouge1": 0.26783603207746054,
+        "rouge2": 0.09121402539501855,
+        "rougeL": 0.1808236591886799
+      },
+      "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\ranking_loss_experiment\\checkpoints\\epoch_04.pt"
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "total_loss": 1.181592168599367,
+        "bce_loss": 1.0648071307599545,
+        "ranking_loss": 0.5839251830533146
+      },
+      "validation": {
+        "total_loss": 1.7142802917957305,
+        "bce_loss": 1.5224156401157378,
+        "ranking_loss": 0.9593232617378235
+      },
+      "validation_rouge": {
+        "rouge1": 0.2656916346655095,
+        "rouge2": 0.08767749493696081,
+        "rougeL": 0.17614047146695175
+      },
+      "checkpoint": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\models\\ranking_loss_experiment\\checkpoints\\epoch_05.pt"
+    }
+  ]
+}

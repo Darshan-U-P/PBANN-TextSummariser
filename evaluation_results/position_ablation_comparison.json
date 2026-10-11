@@ -1,0 +1,23 @@
+{
+  "validation_articles": 500,
+  "selection": "top-3, restored to original sentence order",
+  "metrics": {
+    "pbann_no_position": {
+      "rouge1": 0.2708536601175857,
+      "rouge2": 0.0925569376625017,
+      "rougeL": 0.183037873048343
+    },
+    "pbann_position_aware": {
+      "rouge1": 0.29224347194112116,
+      "rouge2": 0.1113853013297617,
+      "rougeL": 0.19545836513919976
+    },
+    "lead3": {
+      "rouge1": 0.29107989470121104,
+      "rouge2": 0.1111587582823361,
+      "rougeL": 0.19493211982009565
+    }
+  },
+  "best_ablation_epoch": 4,
+  "note": "Validation comparison only. The test set was not used for tuning."
+}

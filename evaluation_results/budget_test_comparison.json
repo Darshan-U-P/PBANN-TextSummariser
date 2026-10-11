@@ -1,0 +1,73 @@
+{
+  "split": "test",
+  "checkpoint": "models\\rouge_selection_experiment\\pbann_best_rouge.pt",
+  "examples": 500,
+  "selection": {
+    "top_k": 3,
+    "word_budget": 50,
+    "max_sentences_per_article": 60,
+    "max_tokens_per_sentence": 64
+  },
+  "results": {
+    "pbann_top3": {
+      "rouge": {
+        "rouge1": {
+          "precision": 0.2059975702009036,
+          "recall": 0.4408045990831245,
+          "f1": 0.27296460829414754
+        },
+        "rouge2": {
+          "precision": 0.06840447434472893,
+          "recall": 0.14730233397717435,
+          "f1": 0.09082552353994532
+        },
+        "rougeL": {
+          "precision": 0.13869848103940152,
+          "recall": 0.298701735768257,
+          "f1": 0.18407784712871908
+        }
+      },
+      "average_summary_words": 70.016
+    },
+    "pbann_budget50": {
+      "rouge": {
+        "rouge1": {
+          "precision": 0.23027646847352717,
+          "recall": 0.35382111098794533,
+          "f1": 0.27336053727771226
+        },
+        "rouge2": {
+          "precision": 0.07121724603753027,
+          "recall": 0.11139303413329532,
+          "f1": 0.08506379064233394
+        },
+        "rougeL": {
+          "precision": 0.1568786695781074,
+          "recall": 0.2436210149714463,
+          "f1": 0.1870242869286032
+        }
+      },
+      "average_summary_words": 48.38
+    },
+    "lead3": {
+      "rouge": {
+        "rouge1": {
+          "precision": 0.2330041878169082,
+          "recall": 0.47650108732725627,
+          "f1": 0.3026901102852891
+        },
+        "rouge2": {
+          "precision": 0.09037633884232844,
+          "recall": 0.1928110668039641,
+          "f1": 0.1193716160788183
+        },
+        "rougeL": {
+          "precision": 0.1588735028097983,
+          "recall": 0.32709979470519496,
+          "f1": 0.20684800917414148
+        }
+      },
+      "average_summary_words": 65.836
+    }
+  }
+}

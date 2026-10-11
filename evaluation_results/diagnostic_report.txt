@@ -1,0 +1,169 @@
+
+====================================================================
+PB-ANN PREDICTION DIAGNOSTICS
+====================================================================
+Examples analysed: 500
+
+SUMMARY LENGTH
+----------------------------------------
+Average prediction words: 28.3
+Average reference words: 34.9
+Average prediction/reference length ratio: 0.811
+
+PREDICTED SENTENCE COUNT
+----------------------------------------
+{1: 436, 2: 37, 3: 25, 5: 1, 4: 1}
+
+SELECTED SENTENCE POSITIONS
+----------------------------------------
+Average relative position (0=start, 1=end): 0.303
+
+ROUGE DISTRIBUTION
+----------------------------------------
+ROUGE1: mean=0.2373, minimum=0.0000, maximum=0.6027
+ROUGE2: mean=0.0696, minimum=0.0000, maximum=0.4571
+ROUGEL: mean=0.1699, minimum=0.0000, maximum=0.5532
+
+====================================================================
+EXAMPLE INSPECTION
+====================================================================
+
+[1] LOW ROUGE-L
+--------------------------------------------------------------------
+
+REFERENCE SUMMARY:
+Johan Bavman photographed fathers in Sweden, which has generous parental leave . Sweden's policies encourage fathers to take just as much leave as mothers .
+
+PB-ANN PREDICTION:
+The remaining 90 days are paid at a flat-rate benefit of 20 euros a day, or $22.
+
+ROUGE F1:
+  ROUGE1: 0.0000
+  ROUGE2: 0.0000
+  ROUGEL: 0.0000
+
+[2] LOW ROUGE-L
+--------------------------------------------------------------------
+
+REFERENCE SUMMARY:
+A fan re-edited "Batman v. Superman: Dawn of Justice" trailer with classic scenes from older "Batman" and "Superman" TV and film . Adam West and Christopher Reeve replace Ben Affleck and Henry Cavill in the re-imagined trailer .
+
+PB-ANN PREDICTION:
+CNN spoke to 18-year-old Burns about what motivated him to make his now-viral video.
+
+ROUGE F1:
+  ROUGE1: 0.0000
+  ROUGE2: 0.0000
+  ROUGEL: 0.0000
+
+[3] LOW ROUGE-L
+--------------------------------------------------------------------
+
+REFERENCE SUMMARY:
+Ocean economic powerhouse valued at $24 trillion: WWF report . Marco Lambertini: Ocean plays direct role in livelihoods across globe .
+
+PB-ANN PREDICTION:
+For example, 90 percent of the world's fish stocks are either fully exploited or over-exploited.
+
+ROUGE F1:
+  ROUGE1: 0.0000
+  ROUGE2: 0.0000
+  ROUGEL: 0.0000
+
+[4] LOW ROUGE-L
+--------------------------------------------------------------------
+
+REFERENCE SUMMARY:
+Vidarbha, the eastern region of the state of Maharashtra, is known as the epicenter of the suicide crisis . Farmers are becoming burdened with debt due to falling prices but rising costs .
+
+PB-ANN PREDICTION:
+She already has a two-year-old son.
+
+ROUGE F1:
+  ROUGE1: 0.0000
+  ROUGE2: 0.0000
+  ROUGEL: 0.0000
+
+[5] LOW ROUGE-L
+--------------------------------------------------------------------
+
+REFERENCE SUMMARY:
+Social media largely supports Jenner . More people seemed intrigued that he's a Republican .
+
+PB-ANN PREDICTION:
+Paparazzi have been stalking the former Olympic champion for months, breathlessly documenting his increasingly feminine appearance down to his lip gloss, pierced ears and French manicure.
+
+ROUGE F1:
+  ROUGE1: 0.0000
+  ROUGE2: 0.0000
+  ROUGEL: 0.0000
+
+[6] HIGH ROUGE-L
+--------------------------------------------------------------------
+
+REFERENCE SUMMARY:
+Police arrest 133,000 people and seize 43.3 tons of narcotics in a six-month period . China launches a new online campaign to crack down on online drug crimes . Celebrities have been embroiled in the nation's intensifying anti-drug campaign .
+
+PB-ANN PREDICTION:
+(CNN)Chinese police have arrested more than 133,000 people and seized 43.3 tons of illegal narcotics during a six-month anti-drug campaign, the country's Ministry of Public Security has announced.
+
+ROUGE F1:
+  ROUGE1: 0.5526
+  ROUGE2: 0.3243
+  ROUGEL: 0.4737
+
+[7] HIGH ROUGE-L
+--------------------------------------------------------------------
+
+REFERENCE SUMMARY:
+Mohammad Javad Zarif has spent more time with John Kerry than any other foreign minister . He once participated in a takeover of the Iranian Consulate in San Francisco . The Iranian foreign minister tweets in English .
+
+PB-ANN PREDICTION:
+In fact, he has now spent more time with Kerry than any other foreign minister in the world.
+
+ROUGE F1:
+  ROUGE1: 0.5660
+  ROUGE2: 0.3137
+  ROUGEL: 0.4906
+
+[8] HIGH ROUGE-L
+--------------------------------------------------------------------
+
+REFERENCE SUMMARY:
+Former TSA agent Daniel Boykin, 33, videotaped his female co-worker in the restroom, authorities say . Authorities say they found 90 videos and 1,500 photos of the victim on Boykin's phone and computer . Boykin worked in an administrative capacity and didn't do public security screenings, TSA official says .
+
+PB-ANN PREDICTION:
+(CNN)A judge this week sentenced a former TSA agent to six months in jail for secretly videotaping a female co-worker while she was in the bathroom, prosecutors said. Police found more than 90 videos and 1,500 photos of the victim on Boykin's phone and computer.
+
+ROUGE F1:
+  ROUGE1: 0.5200
+  ROUGE2: 0.3878
+  ROUGEL: 0.5000
+
+[9] HIGH ROUGE-L
+--------------------------------------------------------------------
+
+REFERENCE SUMMARY:
+New Line Cinema is reportedly planning a Mariah Carey Christmas movie . Carey was queen of the '90s, and that decade is totally hot now .
+
+PB-ANN PREDICTION:
+According to EW, New Line Cinema is planning a Mariah Carey Christmas movie.
+
+ROUGE F1:
+  ROUGE1: 0.5405
+  ROUGE2: 0.4571
+  ROUGEL: 0.5405
+
+[10] HIGH ROUGE-L
+--------------------------------------------------------------------
+
+REFERENCE SUMMARY:
+CF-18 Hornets bomb a garrison near ISIS' de facto capital of Raqqa, Canada says . The Canadian military has conducted dozens of strikes against ISIS in Iraq .
+
+PB-ANN PREDICTION:
+The CF-18 Hornets bombed near ISIS' de facto capital of Raqqa, Canada's Department of National Defence said Wednesday.
+
+ROUGE F1:
+  ROUGE1: 0.5957
+  ROUGE2: 0.4444
+  ROUGEL: 0.5532

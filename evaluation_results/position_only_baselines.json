@@ -1,0 +1,26 @@
+{
+  "validation_articles": 500,
+  "selection": "deterministic position-only baselines",
+  "strategies": {
+    "first3": {
+      "rouge1": 0.29107989470121104,
+      "rouge2": 0.1111587582823361,
+      "rougeL": 0.19493211982009565
+    },
+    "middle3": {
+      "rouge1": 0.203629828996776,
+      "rouge2": 0.04349818767098736,
+      "rougeL": 0.13403442113757055
+    },
+    "last3": {
+      "rouge1": 0.1863913343677169,
+      "rouge2": 0.038497363271371175,
+      "rougeL": 0.12369711481173468
+    },
+    "evenly_spaced3": {
+      "rouge1": 0.24988727690610912,
+      "rouge2": 0.07710491227665922,
+      "rougeL": 0.1686923831120188
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "test_articles": 500,
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 2026,
+  "metric": "mean per-article ROUGE F1",
+  "selection": "top-3 source sentences",
+  "mean_f1": {
+    "original_pbann": {
+      "rouge1": 0.27296460829414754,
+      "rouge2": 0.0908255235399453,
+      "rougeL": 0.18407784712871908
+    },
+    "position_aware_pbann": {
+      "rouge1": 0.30758066246150223,
+      "rouge2": 0.12221465297646425,
+      "rougeL": 0.21049564558119876
+    },
+    "lead3": {
+      "rouge1": 0.302690110285289,
+      "rouge2": 0.11937161607881831,
+      "rougeL": 0.20684800917414148
+    }
+  },
+  "paired_comparisons": {
+    "position_minus_original": {
+      "rouge1": {
+        "observed_mean_f1_difference": 0.03461605416735473,
+        "ci95_lower": 0.026804120293751062,
+        "ci95_upper": 0.04263777637731987,
+        "bootstrap_fraction_difference_positive": 1.0,
+        "ci_excludes_zero": true
+      },
+      "rouge2": {
+        "observed_mean_f1_difference": 0.03138912943651893,
+        "ci95_lower": 0.024332056179945216,
+        "ci95_upper": 0.038731335577271424,
+        "bootstrap_fraction_difference_positive": 1.0,
+        "ci_excludes_zero": true
+      },
+      "rougeL": {
+        "observed_mean_f1_difference": 0.026417798452479702,
+        "ci95_lower": 0.019465659283496802,
+        "ci95_upper": 0.03353310970776318,
+        "bootstrap_fraction_difference_positive": 1.0,
+        "ci_excludes_zero": true
+      }
+    },
+    "position_minus_lead3": {
+      "rouge1": {
+        "observed_mean_f1_difference": 0.004890552176213191,
+        "ci95_lower": -0.0015349635565857014,
+        "ci95_upper": 0.011391865318691444,
+        "bootstrap_fraction_difference_positive": 0.9321,
+        "ci_excludes_zero": false
+      },
+      "rouge2": {
+        "observed_mean_f1_difference": 0.0028430368976459473,
+        "ci95_lower": -0.002444295343413083,
+        "ci95_upper": 0.008146313578368945,
+        "bootstrap_fraction_difference_positive": 0.8543,
+        "ci_excludes_zero": false
+      },
+      "rougeL": {
+        "observed_mean_f1_difference": 0.0036476364070573072,
+        "ci95_lower": -0.001764425281215116,
+        "ci95_upper": 0.009101149464381526,
+        "bootstrap_fraction_difference_positive": 0.9025,
+        "ci_excludes_zero": false
+      }
+    }
+  },
+  "interpretation_note": "A 95% paired bootstrap percentile interval excluding zero indicates evidence of a difference under this resampling procedure; it is not a guarantee of generalization to other datasets."
+}

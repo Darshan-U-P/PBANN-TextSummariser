@@ -1,0 +1,278 @@
+{
+  "created_utc": "2026-10-11T21:58:06.484324+00:00",
+  "device": "cuda",
+  "test_file": "D:\\all project\\Projects\\AI projects\\PBANN-TextSummariser\\data\\processed\\test.jsonl",
+  "test_articles": 500,
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "sample_checks": [
+    {
+      "id": "f001ec5c4704938247d27a44948eebb37ae98d01",
+      "reference_summary": "Membership gives the ICC jurisdiction over alleged crimes committed in Palestinian territories since last June .\nIsrael and the United States opposed the move, which could open the door to war crimes investigations against Israelis .",
+      "source_sentences": [
+        "(CNN)The Palestinian Authority officially became the 123rd member of the International Criminal Court on Wednesday, a step that gives the court jurisdiction over alleged crimes in Palestinian territories.",
+        "The formal accession was marked with a ceremony at The Hague, in the Netherlands, where the court is based.",
+        "The Palestinians signed the ICC's founding Rome Statute in January, when they also accepted its jurisdiction over alleged crimes committed \"in the occupied Palestinian territory, including East Jerusalem, since June 13, 2014.\"",
+        "Later that month, the ICC opened a preliminary examination into the situation in Palestinian territories, paving the way for possible war crimes investigations against Israelis.",
+        "As members of the court, Palestinians may be subject to counter-charges as well.",
+        "Israel and the United States, neither of which is an ICC member, opposed the Palestinians' efforts to join the body.",
+        "But Palestinian Foreign Minister Riad al-Malki, speaking at Wednesday's ceremony, said it was a move toward greater justice.",
+        "\"As Palestine formally becomes a State Party to the Rome Statute today, the world is also a step closer to ending a long era of impunity and injustice,\" he said, according to an ICC news release.",
+        "\"Indeed, today brings us closer to our shared goals of justice and peace.\"",
+        "Judge Kuniko Ozaki, a vice president of the ICC, said acceding to the treaty was just the first step for the Palestinians.",
+        "\"As the Rome Statute today enters into force for the State of Palestine, Palestine acquires all the rights as well as responsibilities that come with being a State Party to the Statute.",
+        "These are substantive commitments, which cannot be taken lightly,\" she said.",
+        "Rights group Human Rights Watch welcomed the development.",
+        "\"Governments seeking to penalize Palestine for joining the ICC should immediately end their pressure, and countries that support universal acceptance of the court's treaty should speak out to welcome its membership,\" said Balkees Jarrah, international justice counsel for the group.",
+        "\"What's objectionable is the attempts to undermine international justice, not Palestine's decision to join a treaty to which over 100 countries around the world are members.\"",
+        "In January, when the preliminary ICC examination was opened, Israeli Prime Minister Benjamin Netanyahu described it as an outrage, saying the court was overstepping its boundaries.",
+        "The United States also said it \"strongly\" disagreed with the court's decision.",
+        "\"As we have said repeatedly, we do not believe that Palestine is a state and therefore we do not believe that it is eligible to join the ICC,\" the State Department said in a statement.",
+        "It urged the warring sides to resolve their differences through direct negotiations.",
+        "\"We will continue to oppose actions against Israel at the ICC as counterproductive to the cause of peace,\" it said.",
+        "But the ICC begs to differ with the definition of a state for its purposes and refers to the territories as \"Palestine.\"",
+        "While a preliminary examination is not a formal investigation, it allows the court to review evidence and determine whether to investigate suspects on both sides.",
+        "Prosecutor Fatou Bensouda said her office would \"conduct its analysis in full independence and impartiality.\"",
+        "The war between Israel and Hamas militants in Gaza last summer left more than 2,000 people dead.",
+        "The inquiry will include alleged war crimes committed since June.",
+        "The International Criminal Court was set up in 2002 to prosecute genocide, crimes against humanity and war crimes.",
+        "CNN's Vasco Cotovio, Kareem Khadder and Faith Karimi contributed to this report."
+      ],
+      "predicted_sentences": [
+        "(CNN)The Palestinian Authority officially became the 123rd member of the International Criminal Court on Wednesday, a step that gives the court jurisdiction over alleged crimes in Palestinian territories.",
+        "The formal accession was marked with a ceremony at The Hague, in the Netherlands, where the court is based.",
+        "The Palestinians signed the ICC's founding Rome Statute in January, when they also accepted its jurisdiction over alleged crimes committed \"in the occupied Palestinian territory, including East Jerusalem, since June 13, 2014.\""
+      ],
+      "summary": "(CNN)The Palestinian Authority officially became the 123rd member of the International Criminal Court on Wednesday, a step that gives the court jurisdiction over alleged crimes in Palestinian territories. The formal accession was marked with a ceremony at The Hague, in the Netherlands, where the court is based. The Palestinians signed the ICC's founding Rome Statute in January, when they also accepted its jurisdiction over alleged crimes committed \"in the occupied Palestinian territory, including East Jerusalem, since June 13, 2014.\"",
+      "source_word_count": 567,
+      "summary_word_count": 79,
+      "compression_percent": 86.07,
+      "sentences_copied_from_source": true,
+      "shorter_than_article": true,
+      "checks_passed": true
+    },
+    {
+      "id": "c27cf1b136cc270023de959e7ab24638021bc43f",
+      "reference_summary": "Student is no longer on Duke University campus and will face disciplinary review .\nSchool officials identified student during investigation and the person admitted to hanging the noose, Duke says .\nThe noose, made of rope, was discovered on campus about 2 a.m.",
+      "source_sentences": [
+        "(CNN)A Duke student has admitted to hanging a noose made of rope from a tree near a student union, university officials said Thursday.",
+        "The prestigious private school didn't identify the student, citing federal privacy laws.",
+        "In a news release, it said the student was no longer on campus and will face student conduct review.",
+        "The student was identified during an investigation by campus police and the office of student affairs and admitted to placing the noose on the tree early Wednesday, the university said.",
+        "Officials are still trying to determine if other people were involved.",
+        "Criminal investigations into the incident are ongoing as well.",
+        "Students and faculty members marched Wednesday afternoon chanting \"We are not afraid.",
+        "We stand together,\"  after pictures of the noose were passed around on social media.",
+        "At a forum held on the steps of Duke Chapel, close to where the noose was discovered at 2 a.m., hundreds of people gathered.",
+        "\"You came here for the reason that you want to say with me, 'This is no Duke we will accept.",
+        "This is no Duke we want.",
+        "This is not the Duke we're here to experience.",
+        "And this is not the Duke we're here to create,' \" Duke President Richard Brodhead told the crowd.",
+        "The incident is one of several recent racist events to affect college students.",
+        "Last month a fraternity at the University of Oklahoma had its charter removed after a video surfaced showing members using the N-word and referring to lynching in a chant.",
+        "Two students were expelled.",
+        "In February, a noose was hung around the neck of a statue of a famous civil rights figure at the University of Mississippi.",
+        "A statement issued by Duke said there was a previous report of hate speech directed at students on campus.",
+        "In the news release, the vice president for student affairs called the noose incident a \"cowardly act.\"",
+        "\"To whomever committed this hateful and stupid act, I just want to say that if your intent was to create fear, it will have the opposite effect,\" Larry Moneta said Wednesday.",
+        "Duke University is a private college with about 15,000 students in Durham, North Carolina.",
+        "CNN's Dave Alsup contributed to this report."
+      ],
+      "predicted_sentences": [
+        "(CNN)A Duke student has admitted to hanging a noose made of rope from a tree near a student union, university officials said Thursday.",
+        "In a news release, it said the student was no longer on campus and will face student conduct review.",
+        "The student was identified during an investigation by campus police and the office of student affairs and admitted to placing the noose on the tree early Wednesday, the university said."
+      ],
+      "summary": "(CNN)A Duke student has admitted to hanging a noose made of rope from a tree near a student union, university officials said Thursday. In a news release, it said the student was no longer on campus and will face student conduct review. The student was identified during an investigation by campus police and the office of student affairs and admitted to placing the noose on the tree early Wednesday, the university said.",
+      "source_word_count": 364,
+      "summary_word_count": 72,
+      "compression_percent": 80.22,
+      "sentences_copied_from_source": true,
+      "shorter_than_article": true,
+      "checks_passed": true
+    },
+    {
+      "id": "9f051fe922a8f45b315a366a5af1aab58d93f050",
+      "reference_summary": "Going online has become the path of least resistance if you want to make yourself heard .\nBut where there is the restrictive rule of law, journalists are vulnerable to the anger of officialdom .\nFrom China to Malaysia, journalists and bloggers have been jailed -- even killed .",
+      "source_sentences": [
+        "(CNN)Just as mimeograph machines and photocopiers were in their day, online activity -- blogs, YouTube channels, even social media platforms like Facebook and Twitter -- have fully emerged as the alternative to traditional mainstream media.",
+        "It is not just the low cost of posting online that attracts dissidence, though that in itself is liberating.",
+        "It is the lack of access to traditional print and broadcast media in authoritarian countries that is really the driving force leading disaffected voices to post online.",
+        "It is not unique to Asia, but it might seem more pronounced if you live there.",
+        "Going online has become the path of least resistance if you want to make yourself heard.",
+        "But it still brings resistance, some of it legal, some of it deadly.",
+        "Let's look at the legal angle first.",
+        "Amos Yee, the teenage video blogger who was arrested and held pending bail Sunday in Singapore, drew international attention for his anti-Lee Kuan Yew harangue.",
+        "But jailing critics is not usually the government's first choice in Singapore.",
+        "It is part of Lee Kuan Yew's legacy that the government's use of the courts to bring libel and defamation cases, usually carrying heavy financial penalties, is the preferred method of silencing discomfiting online voices.",
+        "His father has reportedly apologized for his son's behavior, but the younger Yee could face up to three years in jail.",
+        "Yee is not unique.",
+        "Another dissident blogger in Singapore, Roy Ngerng, continues to suffer financial and legal pressure, including the loss of his job, because of a blog post that allegedly accused the city-state's Prime Minister, Lee Hsien Loong, of corruption.",
+        "Ngerng's concern is with the lack of transparency in the management of the Central Provident Fund, the government's compulsory pension program.",
+        "Yee and Ngerng are two of many.",
+        "The Committee To Protect Journalists' file on Singapore going back to 2000 has a long string of similar cases, some against politicians, others against citizens simply frustrated with their government.",
+        "But it is not just Singapore where Internet activity comes under fire: On Monday in Malaysia, with much less of the international attention heaped on Amos Yee, five editors and executives from The Malaysian Insider were arrested over the site's March 25 report claiming that a senior council of royal rulers and state governors, known as the Conference of Rulers, had rejected a proposal to amend federal law to allow for the introduction of hudud, or punishments meted out under Islamic law.",
+        "In deeply Muslim Malaysia, questions of Islamic faith are a third-rail issue, as is revealing government decisions before they are announced.",
+        "By far the biggest jailer of journalists in the world is China, where a majority of the 44 people behind bars at the end of 2014 were bloggers, most of them Uighur or Tibetan activists who straddle the line between journalism and activism.",
+        "But in second place in Asia is Vietnam, where CPJ's most recent prison census showed Vietnam holding 16 reporters behind bars as of December 1.",
+        "Add one more in late December, Nguyen Dinh Ngoc, a prominent blogger who was arrested for \"law-violating\" after police searched his home in southern Ho Chi Minh City on December 27, and two more in January, Nguyen Quang Lap and Hong Le Tho, arrested on anti-state charges of \"abusing democratic freedoms\" and you can see the pattern.",
+        "Because the print and broadcast media are so totally government controlled, mainstream journalists seldom go to jail any more in Vietnam.",
+        "Only two investigative print reporters remain behind bars in Vietnam, their cases dating back to 2012 and 2013.",
+        "Both were accused of accepting bribes for dialing back critical news coverage.",
+        "The list could go on, but the reality is that, as CPJ wrote in 2013, across Asia \"governments have curtailed Internet freedoms through increasingly restrictive practices, including prohibitive laws, heightened surveillance and censorship, and threats of imprisonment on various national security-related offenses.\"",
+        "That is still the policy path being followed by most countries in Asia, and it does not look like it will be changing any time soon.",
+        "Jailing journalists is one thing, but watching them being killed and doing little or nothing about it is another.",
+        "Since 1992, 11% of journalists killed have died for their work online.",
+        "Because our 1992 start date really precedes the full advent of the Internet, that proportion can be expected to grow.",
+        "While most bloggers have not been the targets of murderers, Bangladesh has recently become the exception.",
+        "On Monday, Washiqur Rahman Babu was the second blogger to be hacked to death in public in Bangladesh in the past five weeks.",
+        "Blogger Avijit Roy and his wife, Rafida Ahmed Bonna, were attacked by assailants wielding sharp weapons while the couple was visiting Dhaka.",
+        "Roy, a U.S. citizen of Bangladeshi origin, was killed and his wife was critically injured.",
+        "Both Rahman and Roy had written critically on Islamic matters.",
+        "The blogger death toll gets higher in Bangladesh if you go back a year or two, and religious beliefs are always involved, and the killings almost always carried out with near perfect impunity.",
+        "In January 2013, blogger Asif Mohiuddin, who wrote critical commentary on religion, Islamist groups, free speech, and human rights, barely survived after he was stabbed by Islamists.",
+        "In February 2013, blogger Ahmed Rajib Haider, who had written about Islamic fundamentalism and Islamist groups, was hacked to death by members of an Islamist militant group, according to police investigations.",
+        "Later in 2013, Islamist groups called for the execution of bloggers they said had committed blasphemy.",
+        "While arrests were made after those murders, there have been no convictions.",
+        "The bottom line: Online journalists, operating outside the restraints of mainstream media, have become the most vulnerable targets for governments and independent actors.",
+        "Where there is the restrictive rule of law, journalists are vulnerable to the anger of officialdom.",
+        "Where the rule of law is weak, they are vulnerable to the attacks of killers who seldom, if ever, answer to the rule of law."
+      ],
+      "predicted_sentences": [
+        "(CNN)Just as mimeograph machines and photocopiers were in their day, online activity -- blogs, YouTube channels, even social media platforms like Facebook and Twitter -- have fully emerged as the alternative to traditional mainstream media.",
+        "Amos Yee, the teenage video blogger who was arrested and held pending bail Sunday in Singapore, drew international attention for his anti-Lee Kuan Yew harangue.",
+        "His father has reportedly apologized for his son's behavior, but the younger Yee could face up to three years in jail."
+      ],
+      "summary": "(CNN)Just as mimeograph machines and photocopiers were in their day, online activity -- blogs, YouTube channels, even social media platforms like Facebook and Twitter -- have fully emerged as the alternative to traditional mainstream media. Amos Yee, the teenage video blogger who was arrested and held pending bail Sunday in Singapore, drew international attention for his anti-Lee Kuan Yew harangue. His father has reportedly apologized for his son's behavior, but the younger Yee could face up to three years in jail.",
+      "source_word_count": 992,
+      "summary_word_count": 81,
+      "compression_percent": 91.83,
+      "sentences_copied_from_source": true,
+      "shorter_than_article": true,
+      "checks_passed": true
+    },
+    {
+      "id": "05cf349b0acd480c600238ba1c40b59a8aafc8b7",
+      "reference_summary": "Students stampeded; some jumped from a fifth story at a dorm; one student died, school officials say .\nThe blasts were caused by faulty electrical cable, and Kenya Power is at the school .\nThe panic came less than two weeks after terrorists attacked Kenya's Garissa University .",
+      "source_sentences": [
+        "Nairobi, Kenya (CNN)University of Nairobi students were terrified Sunday morning when they heard explosions -- caused by a faulty electrical cable -- and believed it was a terror attack, the school said.",
+        "Students on the Kikuyu campus stampeded down the halls of the Kimberly dormitory, and some jumped from its fifth floor, the university said.",
+        "Hundreds were injured and were taken to hospitals.",
+        "One person died, according to the school.",
+        "The confusion and panic came less than two weeks after Al-Shabaab slaughtered 147 people at a college in Garissa, Kenya.",
+        "Kenyan teachers and students have said they fear being targeted by the Somalia-based terrorists.",
+        "On Sunday, as many as 108 students from the University of Nairobi were admitted to Kenyatta National Hospital.",
+        "Among them, at least 63 students have been discharged, and at least four are slated for surgery, the school said.",
+        "Almost all of the 54 students being treated at PCEA Kikuyu Hospital have been released, the university said.",
+        "Kenya Power authorities and its CEO are at the school and looking into the electrical issue.",
+        "Normal power supply will resume after repairs, the university said.",
+        "\"As we mourn the unfortunate loss of the departed student, we are also praying for the quick recovery of those who were injured,\" said Vice Chancellor Peter M.F.",
+        "Mbithi in a statement.",
+        "He called on the students, staff and public to remain calm.",
+        "CNN's Lillian Leposo reported from Nairobi and Ashley Fantz wrote this story in Atlanta."
+      ],
+      "predicted_sentences": [
+        "Nairobi, Kenya (CNN)University of Nairobi students were terrified Sunday morning when they heard explosions -- caused by a faulty electrical cable -- and believed it was a terror attack, the school said.",
+        "Hundreds were injured and were taken to hospitals.",
+        "The confusion and panic came less than two weeks after Al-Shabaab slaughtered 147 people at a college in Garissa, Kenya."
+      ],
+      "summary": "Nairobi, Kenya (CNN)University of Nairobi students were terrified Sunday morning when they heard explosions -- caused by a faulty electrical cable -- and believed it was a terror attack, the school said. Hundreds were injured and were taken to hospitals. The confusion and panic came less than two weeks after Al-Shabaab slaughtered 147 people at a college in Garissa, Kenya.",
+      "source_word_count": 243,
+      "summary_word_count": 60,
+      "compression_percent": 75.31,
+      "sentences_copied_from_source": true,
+      "shorter_than_article": true,
+      "checks_passed": true
+    },
+    {
+      "id": "d360e4a4a1c26cb01e1955a725688d330a43c971",
+      "reference_summary": "Larry Upright's family says he would enjoy the request .\nSome vow to honor it, but others say they'll still vote for Hillary Clinton .",
+      "source_sentences": [
+        "(CNN)Larry Upright died just one day after Hillary Clinton announced she was running for president.",
+        "And in his obituary, his family made just two requests: please donate to a children's hospital, and please don't vote for Clinton.",
+        "Upright, a staunch Republican, died Monday at a North Carolina hospital.",
+        "He was 81.",
+        "\"In lieu of flowers, memorials may be sent to Shriners Hospital for Children,\" his obituary reads.",
+        "\"Also, the family respectfully asks that you do not vote for Hillary Clinton in 2016.",
+        "R.I.P.",
+        "Grandaddy.\"",
+        "Daughter Jill McLain said it was natural to put that line in her father's tribute.",
+        "\"He was very passionate about politics and probably passed a little of that on,\" she told CNN affiliate WSOC.",
+        "Son Michael Upright said he knew his father would enjoy the request.",
+        "\"We know he's up there giggling right now, just laughing out loud,\" he told WSOC.",
+        "Upright's passions included much more than just politics.",
+        "His greatest joy was his family, and he was a former Shriner of the Year at the Cabarrus Shrine Club, according to his obituary.",
+        "After retiring from the building automation industry, he became an avid golfer.",
+        "But it's the last few lines of his obituary that is spurred comments from across the country.",
+        "\"You have my solemn promise I will not waste a vote on Hillary Clinton,\" Marina Shear of Dallas wrote in the obituary's online guestbook.",
+        "\"You were a wise man, Larry Upright,\" said Ron Renno of Forsyth, Georgia.",
+        "\"I will remember your request in November 2016.",
+        "Rest in peace, Sir.\"",
+        "Nigel Dufont of Kannapolis, North Carolina, offered his condolences but said he wouldn't budge on his support of Clinton.",
+        "\"So sorry to hear about Larry, but I am still voting for Hilary!\"",
+        "he wrote.",
+        "And an anonymous commenter stayed open-minded to whoever might enter the field.",
+        "\"May you rest in peace.",
+        "I will vote for Hillary if she is the best candidate.\""
+      ],
+      "predicted_sentences": [
+        "(CNN)Larry Upright died just one day after Hillary Clinton announced she was running for president.",
+        "Upright, a staunch Republican, died Monday at a North Carolina hospital.",
+        "\"In lieu of flowers, memorials may be sent to Shriners Hospital for Children,\" his obituary reads."
+      ],
+      "summary": "(CNN)Larry Upright died just one day after Hillary Clinton announced she was running for president. Upright, a staunch Republican, died Monday at a North Carolina hospital. \"In lieu of flowers, memorials may be sent to Shriners Hospital for Children,\" his obituary reads.",
+      "source_word_count": 317,
+      "summary_word_count": 42,
+      "compression_percent": 86.75,
+      "sentences_copied_from_source": true,
+      "shorter_than_article": true,
+      "checks_passed": true
+    }
+  ],
+  "metrics": {
+    "lead3": {
+      "rouge1": 0.302690110285289,
+      "rouge2": 0.11937161607881831,
+      "rougeL": 0.20684800917414148
+    },
+    "position_pbann_by_seed": {
+      "42": {
+        "rouge1": 0.3031474795460799,
+        "rouge2": 0.11802367546099347,
+        "rougeL": 0.2078004950475628
+      },
+      "123": {
+        "rouge1": 0.30401025477367793,
+        "rouge2": 0.11820970566807813,
+        "rougeL": 0.209641107495389
+      },
+      "2026": {
+        "rouge1": 0.3047010036929413,
+        "rouge2": 0.12150814555111969,
+        "rougeL": 0.2106486326238299
+      }
+    },
+    "position_pbann_mean_across_seeds": {
+      "rouge1": 0.3039529126708997,
+      "rouge2": 0.11924717556006377,
+      "rougeL": 0.20936341172226058
+    },
+    "position_pbann_minus_lead3": {
+      "rouge1": 0.0012628023856106618,
+      "rouge2": -0.00012444051875454276,
+      "rougeL": 0.0025154025481191056
+    }
+  },
+  "limitations": [
+    "ROUGE measures lexical overlap with reference summaries, not factual correctness.",
+    "Training sentence labels were heuristic, not manually annotated.",
+    "Lead-3 is a baseline; implementation of extractive summarization does not require beating it.",
+    "Do not use the held-out test results to tune the model."
+  ],
+  "sample_checks_passed": 5,
+  "sample_checks_total": 5,
+  "conclusion": "Results are mixed across ROUGE metrics. The evaluation does not show a consistent overall winner over Lead-3."
+}
