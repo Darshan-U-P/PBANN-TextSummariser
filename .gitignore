@@ -1,0 +1,19 @@
+@"
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+venv_cuda/
+.env
+.env.*
+!.env.example
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+.ipynb_checkpoints/
+"@ | Set-Content .gitignore
